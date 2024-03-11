@@ -36,31 +36,37 @@
     transform: rotate(360deg);
   }
 }
-
-.file-groups {
-  margin-top: 20px;
+/* App.css */
+.example-file-groups {
+  max-width: 400px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
 }
 
-.file-group {
-  margin-bottom: 20px;
+.example-file-groups h2 {
+  font-size: 18px;
 }
 
-.file-group h3 {
-  font-size: 1.2em;
-  color: #61dafb;
+.example-file-groups .file-group {
+  margin-top: 10px;
 }
 
-.file-group p {
-  font-size: 0.9em;
+.example-file-groups .file-group h3 {
+  font-size: 16px;
 }
 
-.file-group ul {
-  list-style-type: none;
-  padding: 0;
+.example-file-groups ul {
+  padding-left: 20px;
 }
 
-.file-group li a {
-  color: #61dafb;
+.example-file-groups li {
+  list-style-type: disc;
+  font-size: 14px;
+}
+
+.example-file-groups a {
   text-decoration: none;
+  color: blue;
 }
-

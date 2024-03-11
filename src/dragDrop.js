@@ -2,7 +2,7 @@ import React, { useCallback } from 'react';
 import { useDropzone } from 'react-dropzone';
 import axios from 'axios';
 
-const DragDropFileUpload = () => {
+const DragDropFileUpload = (props) => {
     const onDrop = useCallback(acceptedFiles => {
         // Select the first file (if multiple)
         const file = acceptedFiles[0];
@@ -28,6 +28,7 @@ const DragDropFileUpload = () => {
             },
         }).then(response => {
             // Handle success
+            props.onUploadResponse(response.data);
             console.log(response);
             alert('File uploaded successfully');
         })
