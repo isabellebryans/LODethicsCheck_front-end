@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+.file-groups {
+  margin-top: 20px;
+}
+
+.file-group {
+  margin-bottom: 20px;
+}
+
+.file-group h3 {
+  font-size: 1.2em;
+  color: #61dafb;
+}
+
+.file-group p {
+  font-size: 0.9em;
+}
+
+.file-group ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.file-group li a {
+  color: #61dafb;
+  text-decoration: none;
+}
+
