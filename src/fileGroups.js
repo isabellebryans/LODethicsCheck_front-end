@@ -1,7 +1,7 @@
 const exampleFileGroups = [
     {
       title: "Camden London Open Data",
-      description: "Description of Group 1. These files are related to XYZ.",
+      description: "Description of Group 1.",
       files: [
         { name: "camden street crime", path: "/streetCrimeCamden.rdf" },
        // { name: "Example File 2", path: "/example2.rdf" },
@@ -10,7 +10,7 @@ const exampleFileGroups = [
     },
     {
       title: "Czech Republic Open Data",
-      description: "Description of Group 2. These files are related to ABC.",
+      description: "Description of Group 2.",
       files: [
         { name: "Unemployment Rate", path: "/cszo-unemployment-rate.rdf" },
         { name: "Unemployment Rate Ontology", path: "/czso-unemployment-rate-ontology.rdf" },
