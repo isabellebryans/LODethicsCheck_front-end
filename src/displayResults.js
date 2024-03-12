@@ -8,16 +8,16 @@ function DisplayDatasetData({ data }) {
         <p><strong>Dataset Description:</strong> {data.dataset_description}</p>
         
         <div>
-          <strong>Dataset Checks:</strong>
-          <p><strong>Check 1 words found:</strong></p>
+          <strong>Dataset Check:</strong>
+          <p><strong>Vulnerablility Check:</strong></p>
           <ul>
             {data.dataset_checks1.map((check, index) => <li key={index}>{check}</li>)}
           </ul>
-          <p><strong>Check 2 words found:</strong></p>
+          <p><strong>Discrimination Check:</strong></p>
           <ul>
             {data.dataset_checks2.map((check, index) => <li key={index}>{check}</li>)}
           </ul>
-          <p><strong>Check 3 words found:</strong></p>
+          <p><strong>Sensitivity Check:</strong></p>
           <ul>
             {data.dataset_checks3.map((check, index) => <li key={index}>{check}</li>)}
           </ul>
@@ -45,7 +45,7 @@ function DisplayOntologyData({ data }) {
       <div>
         <h3>Tested Ontologies</h3>
         {data.ontologies_tested.map((ontology, index) => (
-          <div key={index}>
+          <div key={index} className='ontology'>
             <h4>Ontology {index + 1}</h4>
             <p><strong>URI:</strong> <a href={ontology.ontology_uri}>{ontology.ontology_uri}</a></p>
             <p><strong>Title:</strong> {ontology.ontology_title}</p>

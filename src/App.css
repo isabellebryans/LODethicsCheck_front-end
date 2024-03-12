@@ -36,21 +36,38 @@
     transform: rotate(360deg);
   }
 }
-/* App.css */
+/* File Groups */
 .example-file-groups {
-  max-width: 400px;
-  font-size: 14px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Adjust the gap as needed */
+  justify-content: center; /* This centers the boxes if there's extra space */
+}
+
+.file-group {
+  border: 1px solid #ccc; /* Adjust the border as desired */
+  padding: 10px;
+  border-radius: 8px; /* Optional, for rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional, for a subtle shadow */
+  width: 250px; /* Or any other fixed width, or flex-basis if you prefer */
+}
+.examples{
   border: 1px solid #ccc;
   padding: 10px;
-  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px; /* Optional, for rounded corners */
+}
+.examples p {
+  font-size: 16px;
+}
+
+
+.examples h3 {
+  font-size: 20px;
 }
 
 .example-file-groups h2 {
   font-size: 18px;
-}
-
-.example-file-groups .file-group {
-  margin-top: 10px;
 }
 
 .example-file-groups .file-group h3 {

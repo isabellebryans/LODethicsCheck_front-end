@@ -1,6 +1,8 @@
 .display-results {
     margin-top: 20px;
     padding: 20px;
+    
+    border: 1px solid #ccc;
     background-color: #f5f5f5;
     border-radius: 8px;
     color: #333;
@@ -29,4 +31,9 @@
 
 .display-results li {
     margin-bottom: 5px;
+}
+
+
+.ontology {
+    border: 1px solid #ccc;
 }

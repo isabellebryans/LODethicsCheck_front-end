@@ -4,7 +4,7 @@ const exampleFileGroups = [
       description: "Description of Group 1.",
       files: [
         { name: "camden street crime", path: "/streetCrimeCamden.rdf" },
-       // { name: "Example File 2", path: "/example2.rdf" },
+        { name: "Camden Food Hygiene", path: "/camdenFoodHygiene.rdf" },
         // Add more files as needed
       ],
     },
