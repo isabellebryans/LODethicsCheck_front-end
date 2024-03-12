@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import './App.css';
 import DragDropFileUpload from './dragDrop';
 import exampleFileGroups from './fileGroups';
+import DisplayResults from './displayResults';
+
 
 function App() {
   const [responseData, setResponseData] = useState(null);
@@ -13,7 +15,6 @@ function App() {
       // Parse the JSON string into an object
       ///const response = JSON.parse(responseString);
       console.log(response.dataset_title);
-  
   
       setResponseData(response);
     } catch (error) {
@@ -48,16 +49,8 @@ function App() {
     </div>
   ))}
 </div>
-
-
         </div>
-        {responseData && (
-          <div className="response-data">
-            <h2>Analysis Results</h2>
-            <pre>{JSON.stringify(responseData, null, 2)}</pre>
-            {/* Display your response data here */}
-          </div>
-        )}
+        {responseData && <DisplayResults data={responseData} />}
       </header>
     </div>
   );
