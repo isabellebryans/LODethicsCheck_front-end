@@ -1,0 +1,1265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:qb="http://purl.org/linked-data/cube#">
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ053/2011-12-31/M">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g0:refArea xmlns:__g0="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/94"/>
+		<__g1:refPeriod xmlns:__g1="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2011-12-31"/>
+		<__g2:prumernaMzda xmlns:__g2="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25318.0</__g2:prumernaMzda>
+		<__g3:medianMzdy xmlns:__g3="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">22147.0</__g3:medianMzdy>
+		<__g4:sex xmlns:__g4="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-M"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ010/2011-12-31/T">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g5:refArea xmlns:__g5="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/19"/>
+		<__g6:refPeriod xmlns:__g6="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2011-12-31"/>
+		<__g7:prumernaMzda xmlns:__g7="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">33546.0</__g7:prumernaMzda>
+		<__g8:medianMzdy xmlns:__g8="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">26896.0</__g8:medianMzdy>
+		<__g9:sex xmlns:__g9="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-T"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ010/2011-12-31/M">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g10:refArea xmlns:__g10="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/19"/>
+		<__g11:refPeriod xmlns:__g11="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2011-12-31"/>
+		<__g12:prumernaMzda xmlns:__g12="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">37346.0</__g12:prumernaMzda>
+		<__g13:medianMzdy xmlns:__g13="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">28759.0</__g13:medianMzdy>
+		<__g14:sex xmlns:__g14="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-M"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ010/2011-12-31/F">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g15:refArea xmlns:__g15="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/19"/>
+		<__g16:refPeriod xmlns:__g16="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2011-12-31"/>
+		<__g17:prumernaMzda xmlns:__g17="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">28984.0</__g17:prumernaMzda>
+		<__g18:medianMzdy xmlns:__g18="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25225.0</__g18:medianMzdy>
+		<__g19:sex xmlns:__g19="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-F"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ010/2010-12-31/T">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g20:refArea xmlns:__g20="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/19"/>
+		<__g21:refPeriod xmlns:__g21="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2010-12-31"/>
+		<__g22:prumernaMzda xmlns:__g22="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">36124.0</__g22:prumernaMzda>
+		<__g23:medianMzdy xmlns:__g23="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">28392.0</__g23:medianMzdy>
+		<__g24:sex xmlns:__g24="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-T"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ010/2010-12-31/M">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g25:refArea xmlns:__g25="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/19"/>
+		<__g26:refPeriod xmlns:__g26="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2010-12-31"/>
+		<__g27:prumernaMzda xmlns:__g27="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41209.0</__g27:prumernaMzda>
+		<__g28:medianMzdy xmlns:__g28="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">31063.0</__g28:medianMzdy>
+		<__g29:sex xmlns:__g29="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-M"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ010/2010-12-31/F">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g30:refArea xmlns:__g30="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/19"/>
+		<__g31:refPeriod xmlns:__g31="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2010-12-31"/>
+		<__g32:prumernaMzda xmlns:__g32="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30022.0</__g32:prumernaMzda>
+		<__g33:medianMzdy xmlns:__g33="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25728.0</__g33:medianMzdy>
+		<__g34:sex xmlns:__g34="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-F"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ010/2012-12-31/T">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g35:refArea xmlns:__g35="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/19"/>
+		<__g36:refPeriod xmlns:__g36="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2012-12-31"/>
+		<__g37:prumernaMzda xmlns:__g37="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">34420.0</__g37:prumernaMzda>
+		<__g38:medianMzdy xmlns:__g38="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">27198.0</__g38:medianMzdy>
+		<__g39:sex xmlns:__g39="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-T"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ010/2012-12-31/M">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g40:refArea xmlns:__g40="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/19"/>
+		<__g41:refPeriod xmlns:__g41="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2012-12-31"/>
+		<__g42:prumernaMzda xmlns:__g42="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">38295.0</__g42:prumernaMzda>
+		<__g43:medianMzdy xmlns:__g43="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">29008.0</__g43:medianMzdy>
+		<__g44:sex xmlns:__g44="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-M"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ010/2012-12-31/F">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g45:refArea xmlns:__g45="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/19"/>
+		<__g46:refPeriod xmlns:__g46="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2012-12-31"/>
+		<__g47:prumernaMzda xmlns:__g47="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">29780.0</__g47:prumernaMzda>
+		<__g48:medianMzdy xmlns:__g48="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25631.0</__g48:medianMzdy>
+		<__g49:sex xmlns:__g49="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-F"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ020/2011-12-31/T">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g50:refArea xmlns:__g50="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/27"/>
+		<__g51:refPeriod xmlns:__g51="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2011-12-31"/>
+		<__g52:prumernaMzda xmlns:__g52="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25651.0</__g52:prumernaMzda>
+		<__g53:medianMzdy xmlns:__g53="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">22570.0</__g53:medianMzdy>
+		<__g54:sex xmlns:__g54="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-T"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ020/2011-12-31/M">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g55:refArea xmlns:__g55="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/27"/>
+		<__g56:refPeriod xmlns:__g56="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2011-12-31"/>
+		<__g57:prumernaMzda xmlns:__g57="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">28316.0</__g57:prumernaMzda>
+		<__g58:medianMzdy xmlns:__g58="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24480.0</__g58:medianMzdy>
+		<__g59:sex xmlns:__g59="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-M"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ020/2011-12-31/F">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g60:refArea xmlns:__g60="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/27"/>
+		<__g61:refPeriod xmlns:__g61="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2011-12-31"/>
+		<__g62:prumernaMzda xmlns:__g62="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">22046.0</__g62:prumernaMzda>
+		<__g63:medianMzdy xmlns:__g63="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19993.0</__g63:medianMzdy>
+		<__g64:sex xmlns:__g64="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-F"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ020/2010-12-31/T">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g65:refArea xmlns:__g65="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/27"/>
+		<__g66:refPeriod xmlns:__g66="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2010-12-31"/>
+		<__g67:prumernaMzda xmlns:__g67="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">27001.0</__g67:prumernaMzda>
+		<__g68:medianMzdy xmlns:__g68="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23386.0</__g68:medianMzdy>
+		<__g69:sex xmlns:__g69="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-T"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ020/2010-12-31/M">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g70:refArea xmlns:__g70="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/27"/>
+		<__g71:refPeriod xmlns:__g71="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2010-12-31"/>
+		<__g72:prumernaMzda xmlns:__g72="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30106.0</__g72:prumernaMzda>
+		<__g73:medianMzdy xmlns:__g73="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25548.0</__g73:medianMzdy>
+		<__g74:sex xmlns:__g74="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-M"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ020/2010-12-31/F">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g75:refArea xmlns:__g75="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/27"/>
+		<__g76:refPeriod xmlns:__g76="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2010-12-31"/>
+		<__g77:prumernaMzda xmlns:__g77="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">22638.0</__g77:prumernaMzda>
+		<__g78:medianMzdy xmlns:__g78="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20444.0</__g78:medianMzdy>
+		<__g79:sex xmlns:__g79="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-F"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ020/2012-12-31/T">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g80:refArea xmlns:__g80="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/27"/>
+		<__g81:refPeriod xmlns:__g81="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2012-12-31"/>
+		<__g82:prumernaMzda xmlns:__g82="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">26097.0</__g82:prumernaMzda>
+		<__g83:medianMzdy xmlns:__g83="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">22808.0</__g83:medianMzdy>
+		<__g84:sex xmlns:__g84="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-T"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ020/2012-12-31/M">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g85:refArea xmlns:__g85="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/27"/>
+		<__g86:refPeriod xmlns:__g86="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2012-12-31"/>
+		<__g87:prumernaMzda xmlns:__g87="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">29090.0</__g87:prumernaMzda>
+		<__g88:medianMzdy xmlns:__g88="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24886.0</__g88:medianMzdy>
+		<__g89:sex xmlns:__g89="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-M"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ020/2012-12-31/F">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g90:refArea xmlns:__g90="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/27"/>
+		<__g91:refPeriod xmlns:__g91="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2012-12-31"/>
+		<__g92:prumernaMzda xmlns:__g92="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">22129.0</__g92:prumernaMzda>
+		<__g93:medianMzdy xmlns:__g93="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20322.0</__g93:medianMzdy>
+		<__g94:sex xmlns:__g94="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-F"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ031/2011-12-31/T">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g95:refArea xmlns:__g95="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/35"/>
+		<__g96:refPeriod xmlns:__g96="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2011-12-31"/>
+		<__g97:prumernaMzda xmlns:__g97="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23199.0</__g97:prumernaMzda>
+		<__g98:medianMzdy xmlns:__g98="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20594.0</__g98:medianMzdy>
+		<__g99:sex xmlns:__g99="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-T"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ031/2011-12-31/M">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g100:refArea xmlns:__g100="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/35"/>
+		<__g101:refPeriod xmlns:__g101="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2011-12-31"/>
+		<__g102:prumernaMzda xmlns:__g102="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25721.0</__g102:prumernaMzda>
+		<__g103:medianMzdy xmlns:__g103="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">22433.0</__g103:medianMzdy>
+		<__g104:sex xmlns:__g104="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-M"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ031/2011-12-31/F">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g105:refArea xmlns:__g105="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/35"/>
+		<__g106:refPeriod xmlns:__g106="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2011-12-31"/>
+		<__g107:prumernaMzda xmlns:__g107="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20171.0</__g107:prumernaMzda>
+		<__g108:medianMzdy xmlns:__g108="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18223.0</__g108:medianMzdy>
+		<__g109:sex xmlns:__g109="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-F"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ031/2010-12-31/T">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g110:refArea xmlns:__g110="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/35"/>
+		<__g111:refPeriod xmlns:__g111="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2010-12-31"/>
+		<__g112:prumernaMzda xmlns:__g112="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23418.0</__g112:prumernaMzda>
+		<__g113:medianMzdy xmlns:__g113="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20479.0</__g113:medianMzdy>
+		<__g114:sex xmlns:__g114="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-T"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ031/2010-12-31/M">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g115:refArea xmlns:__g115="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/35"/>
+		<__g116:refPeriod xmlns:__g116="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2010-12-31"/>
+		<__g117:prumernaMzda xmlns:__g117="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">26205.0</__g117:prumernaMzda>
+		<__g118:medianMzdy xmlns:__g118="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">22302.0</__g118:medianMzdy>
+		<__g119:sex xmlns:__g119="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-M"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ031/2010-12-31/F">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g120:refArea xmlns:__g120="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/35"/>
+		<__g121:refPeriod xmlns:__g121="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2010-12-31"/>
+		<__g122:prumernaMzda xmlns:__g122="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19967.0</__g122:prumernaMzda>
+		<__g123:medianMzdy xmlns:__g123="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18080.0</__g123:medianMzdy>
+		<__g124:sex xmlns:__g124="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-F"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ031/2012-12-31/T">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g125:refArea xmlns:__g125="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/35"/>
+		<__g126:refPeriod xmlns:__g126="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2012-12-31"/>
+		<__g127:prumernaMzda xmlns:__g127="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23722.0</__g127:prumernaMzda>
+		<__g128:medianMzdy xmlns:__g128="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">21190.0</__g128:medianMzdy>
+		<__g129:sex xmlns:__g129="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-T"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ031/2012-12-31/M">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g130:refArea xmlns:__g130="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/35"/>
+		<__g131:refPeriod xmlns:__g131="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2012-12-31"/>
+		<__g132:prumernaMzda xmlns:__g132="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">26166.0</__g132:prumernaMzda>
+		<__g133:medianMzdy xmlns:__g133="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">22830.0</__g133:medianMzdy>
+		<__g134:sex xmlns:__g134="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-M"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ031/2012-12-31/F">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g135:refArea xmlns:__g135="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/35"/>
+		<__g136:refPeriod xmlns:__g136="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2012-12-31"/>
+		<__g137:prumernaMzda xmlns:__g137="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20662.0</__g137:prumernaMzda>
+		<__g138:medianMzdy xmlns:__g138="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18885.0</__g138:medianMzdy>
+		<__g139:sex xmlns:__g139="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-F"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ032/2011-12-31/T">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g140:refArea xmlns:__g140="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/43"/>
+		<__g141:refPeriod xmlns:__g141="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2011-12-31"/>
+		<__g142:prumernaMzda xmlns:__g142="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24036.0</__g142:prumernaMzda>
+		<__g143:medianMzdy xmlns:__g143="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">21453.0</__g143:medianMzdy>
+		<__g144:sex xmlns:__g144="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-T"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ032/2011-12-31/M">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g145:refArea xmlns:__g145="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/43"/>
+		<__g146:refPeriod xmlns:__g146="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2011-12-31"/>
+		<__g147:prumernaMzda xmlns:__g147="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">26349.0</__g147:prumernaMzda>
+		<__g148:medianMzdy xmlns:__g148="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23198.0</__g148:medianMzdy>
+		<__g149:sex xmlns:__g149="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-M"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ032/2011-12-31/F">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g150:refArea xmlns:__g150="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/43"/>
+		<__g151:refPeriod xmlns:__g151="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2011-12-31"/>
+		<__g152:prumernaMzda xmlns:__g152="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">21264.0</__g152:prumernaMzda>
+		<__g153:medianMzdy xmlns:__g153="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19504.0</__g153:medianMzdy>
+		<__g154:sex xmlns:__g154="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-F"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ032/2010-12-31/T">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g155:refArea xmlns:__g155="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/43"/>
+		<__g156:refPeriod xmlns:__g156="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2010-12-31"/>
+		<__g157:prumernaMzda xmlns:__g157="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25482.0</__g157:prumernaMzda>
+		<__g158:medianMzdy xmlns:__g158="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">22634.0</__g158:medianMzdy>
+		<__g159:sex xmlns:__g159="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-T"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ032/2010-12-31/M">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g160:refArea xmlns:__g160="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/43"/>
+		<__g161:refPeriod xmlns:__g161="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2010-12-31"/>
+		<__g162:prumernaMzda xmlns:__g162="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">27888.0</__g162:prumernaMzda>
+		<__g163:medianMzdy xmlns:__g163="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24387.0</__g163:medianMzdy>
+		<__g164:sex xmlns:__g164="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-M"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ032/2010-12-31/F">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g165:refArea xmlns:__g165="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/43"/>
+		<__g166:refPeriod xmlns:__g166="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2010-12-31"/>
+		<__g167:prumernaMzda xmlns:__g167="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">22141.0</__g167:prumernaMzda>
+		<__g168:medianMzdy xmlns:__g168="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20349.0</__g168:medianMzdy>
+		<__g169:sex xmlns:__g169="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-F"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ032/2012-12-31/T">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g170:refArea xmlns:__g170="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/43"/>
+		<__g171:refPeriod xmlns:__g171="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2012-12-31"/>
+		<__g172:prumernaMzda xmlns:__g172="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24885.0</__g172:prumernaMzda>
+		<__g173:medianMzdy xmlns:__g173="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">22198.0</__g173:medianMzdy>
+		<__g174:sex xmlns:__g174="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-T"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ032/2012-12-31/M">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g175:refArea xmlns:__g175="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/43"/>
+		<__g176:refPeriod xmlns:__g176="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2012-12-31"/>
+		<__g177:prumernaMzda xmlns:__g177="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">27437.0</__g177:prumernaMzda>
+		<__g178:medianMzdy xmlns:__g178="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24074.0</__g178:medianMzdy>
+		<__g179:sex xmlns:__g179="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-M"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ032/2012-12-31/F">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g180:refArea xmlns:__g180="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/43"/>
+		<__g181:refPeriod xmlns:__g181="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2012-12-31"/>
+		<__g182:prumernaMzda xmlns:__g182="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">21851.0</__g182:prumernaMzda>
+		<__g183:medianMzdy xmlns:__g183="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20132.0</__g183:medianMzdy>
+		<__g184:sex xmlns:__g184="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-F"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ041/2011-12-31/T">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g185:refArea xmlns:__g185="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/51"/>
+		<__g186:refPeriod xmlns:__g186="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2011-12-31"/>
+		<__g187:prumernaMzda xmlns:__g187="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">21723.0</__g187:prumernaMzda>
+		<__g188:medianMzdy xmlns:__g188="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19229.0</__g188:medianMzdy>
+		<__g189:sex xmlns:__g189="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-T"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ041/2011-12-31/M">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g190:refArea xmlns:__g190="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/51"/>
+		<__g191:refPeriod xmlns:__g191="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2011-12-31"/>
+		<__g192:prumernaMzda xmlns:__g192="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23799.0</__g192:prumernaMzda>
+		<__g193:medianMzdy xmlns:__g193="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">21182.0</__g193:medianMzdy>
+		<__g194:sex xmlns:__g194="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-M"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ041/2011-12-31/F">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g195:refArea xmlns:__g195="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/51"/>
+		<__g196:refPeriod xmlns:__g196="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2011-12-31"/>
+		<__g197:prumernaMzda xmlns:__g197="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19465.0</__g197:prumernaMzda>
+		<__g198:medianMzdy xmlns:__g198="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">17370.0</__g198:medianMzdy>
+		<__g199:sex xmlns:__g199="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-F"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ041/2010-12-31/T">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g200:refArea xmlns:__g200="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/51"/>
+		<__g201:refPeriod xmlns:__g201="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2010-12-31"/>
+		<__g202:prumernaMzda xmlns:__g202="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">22498.0</__g202:prumernaMzda>
+		<__g203:medianMzdy xmlns:__g203="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20110.0</__g203:medianMzdy>
+		<__g204:sex xmlns:__g204="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-T"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ041/2010-12-31/M">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g205:refArea xmlns:__g205="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/51"/>
+		<__g206:refPeriod xmlns:__g206="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2010-12-31"/>
+		<__g207:prumernaMzda xmlns:__g207="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25021.0</__g207:prumernaMzda>
+		<__g208:medianMzdy xmlns:__g208="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">22655.0</__g208:medianMzdy>
+		<__g209:sex xmlns:__g209="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-M"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ041/2010-12-31/F">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g210:refArea xmlns:__g210="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/51"/>
+		<__g211:refPeriod xmlns:__g211="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2010-12-31"/>
+		<__g212:prumernaMzda xmlns:__g212="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19705.0</__g212:prumernaMzda>
+		<__g213:medianMzdy xmlns:__g213="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">17487.0</__g213:medianMzdy>
+		<__g214:sex xmlns:__g214="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-F"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ041/2012-12-31/T">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g215:refArea xmlns:__g215="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/51"/>
+		<__g216:refPeriod xmlns:__g216="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2012-12-31"/>
+		<__g217:prumernaMzda xmlns:__g217="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">22122.0</__g217:prumernaMzda>
+		<__g218:medianMzdy xmlns:__g218="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19885.0</__g218:medianMzdy>
+		<__g219:sex xmlns:__g219="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-T"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ041/2012-12-31/M">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g220:refArea xmlns:__g220="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/51"/>
+		<__g221:refPeriod xmlns:__g221="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2012-12-31"/>
+		<__g222:prumernaMzda xmlns:__g222="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24224.0</__g222:prumernaMzda>
+		<__g223:medianMzdy xmlns:__g223="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">21843.0</__g223:medianMzdy>
+		<__g224:sex xmlns:__g224="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-M"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ041/2012-12-31/F">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g225:refArea xmlns:__g225="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/51"/>
+		<__g226:refPeriod xmlns:__g226="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2012-12-31"/>
+		<__g227:prumernaMzda xmlns:__g227="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19939.0</__g227:prumernaMzda>
+		<__g228:medianMzdy xmlns:__g228="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18200.0</__g228:medianMzdy>
+		<__g229:sex xmlns:__g229="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-F"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ042/2011-12-31/T">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g230:refArea xmlns:__g230="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/60"/>
+		<__g231:refPeriod xmlns:__g231="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2011-12-31"/>
+		<__g232:prumernaMzda xmlns:__g232="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23174.0</__g232:prumernaMzda>
+		<__g233:medianMzdy xmlns:__g233="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20581.0</__g233:medianMzdy>
+		<__g234:sex xmlns:__g234="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-T"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ042/2011-12-31/M">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g235:refArea xmlns:__g235="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/60"/>
+		<__g236:refPeriod xmlns:__g236="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2011-12-31"/>
+		<__g237:prumernaMzda xmlns:__g237="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">26071.0</__g237:prumernaMzda>
+		<__g238:medianMzdy xmlns:__g238="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23014.0</__g238:medianMzdy>
+		<__g239:sex xmlns:__g239="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-M"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ042/2011-12-31/F">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g240:refArea xmlns:__g240="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/60"/>
+		<__g241:refPeriod xmlns:__g241="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2011-12-31"/>
+		<__g242:prumernaMzda xmlns:__g242="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19887.0</__g242:prumernaMzda>
+		<__g243:medianMzdy xmlns:__g243="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18154.0</__g243:medianMzdy>
+		<__g244:sex xmlns:__g244="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-F"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ042/2010-12-31/T">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g245:refArea xmlns:__g245="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/60"/>
+		<__g246:refPeriod xmlns:__g246="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2010-12-31"/>
+		<__g247:prumernaMzda xmlns:__g247="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24874.0</__g247:prumernaMzda>
+		<__g248:medianMzdy xmlns:__g248="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">21860.0</__g248:medianMzdy>
+		<__g249:sex xmlns:__g249="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-T"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ042/2010-12-31/M">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g250:refArea xmlns:__g250="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/60"/>
+		<__g251:refPeriod xmlns:__g251="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2010-12-31"/>
+		<__g252:prumernaMzda xmlns:__g252="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">27792.0</__g252:prumernaMzda>
+		<__g253:medianMzdy xmlns:__g253="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23825.0</__g253:medianMzdy>
+		<__g254:sex xmlns:__g254="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-M"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ042/2010-12-31/F">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g255:refArea xmlns:__g255="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/60"/>
+		<__g256:refPeriod xmlns:__g256="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2010-12-31"/>
+		<__g257:prumernaMzda xmlns:__g257="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">21043.0</__g257:prumernaMzda>
+		<__g258:medianMzdy xmlns:__g258="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19216.0</__g258:medianMzdy>
+		<__g259:sex xmlns:__g259="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-F"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ042/2012-12-31/T">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g260:refArea xmlns:__g260="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/60"/>
+		<__g261:refPeriod xmlns:__g261="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2012-12-31"/>
+		<__g262:prumernaMzda xmlns:__g262="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23816.0</__g262:prumernaMzda>
+		<__g263:medianMzdy xmlns:__g263="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">21334.0</__g263:medianMzdy>
+		<__g264:sex xmlns:__g264="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-T"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ042/2012-12-31/M">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g265:refArea xmlns:__g265="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/60"/>
+		<__g266:refPeriod xmlns:__g266="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2012-12-31"/>
+		<__g267:prumernaMzda xmlns:__g267="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">26691.0</__g267:prumernaMzda>
+		<__g268:medianMzdy xmlns:__g268="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23563.0</__g268:medianMzdy>
+		<__g269:sex xmlns:__g269="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-M"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ042/2012-12-31/F">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g270:refArea xmlns:__g270="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/60"/>
+		<__g271:refPeriod xmlns:__g271="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2012-12-31"/>
+		<__g272:prumernaMzda xmlns:__g272="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20572.0</__g272:prumernaMzda>
+		<__g273:medianMzdy xmlns:__g273="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18802.0</__g273:medianMzdy>
+		<__g274:sex xmlns:__g274="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-F"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ051/2011-12-31/T">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g275:refArea xmlns:__g275="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/78"/>
+		<__g276:refPeriod xmlns:__g276="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2011-12-31"/>
+		<__g277:prumernaMzda xmlns:__g277="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23422.0</__g277:prumernaMzda>
+		<__g278:medianMzdy xmlns:__g278="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">21084.0</__g278:medianMzdy>
+		<__g279:sex xmlns:__g279="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-T"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ051/2011-12-31/M">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g280:refArea xmlns:__g280="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/78"/>
+		<__g281:refPeriod xmlns:__g281="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2011-12-31"/>
+		<__g282:prumernaMzda xmlns:__g282="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25641.0</__g282:prumernaMzda>
+		<__g283:medianMzdy xmlns:__g283="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">22783.0</__g283:medianMzdy>
+		<__g284:sex xmlns:__g284="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-M"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ051/2011-12-31/F">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g285:refArea xmlns:__g285="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/78"/>
+		<__g286:refPeriod xmlns:__g286="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2011-12-31"/>
+		<__g287:prumernaMzda xmlns:__g287="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20633.0</__g287:prumernaMzda>
+		<__g288:medianMzdy xmlns:__g288="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19260.0</__g288:medianMzdy>
+		<__g289:sex xmlns:__g289="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-F"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ051/2010-12-31/T">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g290:refArea xmlns:__g290="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/78"/>
+		<__g291:refPeriod xmlns:__g291="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2010-12-31"/>
+		<__g292:prumernaMzda xmlns:__g292="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25089.0</__g292:prumernaMzda>
+		<__g293:medianMzdy xmlns:__g293="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">22289.0</__g293:medianMzdy>
+		<__g294:sex xmlns:__g294="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-T"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ051/2010-12-31/M">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g295:refArea xmlns:__g295="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/78"/>
+		<__g296:refPeriod xmlns:__g296="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2010-12-31"/>
+		<__g297:prumernaMzda xmlns:__g297="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">27832.0</__g297:prumernaMzda>
+		<__g298:medianMzdy xmlns:__g298="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24241.0</__g298:medianMzdy>
+		<__g299:sex xmlns:__g299="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-M"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ051/2010-12-31/F">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g300:refArea xmlns:__g300="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/78"/>
+		<__g301:refPeriod xmlns:__g301="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2010-12-31"/>
+		<__g302:prumernaMzda xmlns:__g302="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">21671.0</__g302:prumernaMzda>
+		<__g303:medianMzdy xmlns:__g303="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19946.0</__g303:medianMzdy>
+		<__g304:sex xmlns:__g304="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-F"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ051/2012-12-31/T">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g305:refArea xmlns:__g305="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/78"/>
+		<__g306:refPeriod xmlns:__g306="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2012-12-31"/>
+		<__g307:prumernaMzda xmlns:__g307="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23709.0</__g307:prumernaMzda>
+		<__g308:medianMzdy xmlns:__g308="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">21473.0</__g308:medianMzdy>
+		<__g309:sex xmlns:__g309="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-T"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ051/2012-12-31/M">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g310:refArea xmlns:__g310="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/78"/>
+		<__g311:refPeriod xmlns:__g311="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2012-12-31"/>
+		<__g312:prumernaMzda xmlns:__g312="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25981.0</__g312:prumernaMzda>
+		<__g313:medianMzdy xmlns:__g313="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23169.0</__g313:medianMzdy>
+		<__g314:sex xmlns:__g314="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-M"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ051/2012-12-31/F">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g315:refArea xmlns:__g315="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/78"/>
+		<__g316:refPeriod xmlns:__g316="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2012-12-31"/>
+		<__g317:prumernaMzda xmlns:__g317="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">21038.0</__g317:prumernaMzda>
+		<__g318:medianMzdy xmlns:__g318="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19688.0</__g318:medianMzdy>
+		<__g319:sex xmlns:__g319="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-F"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ052/2011-12-31/T">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g320:refArea xmlns:__g320="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/86"/>
+		<__g321:refPeriod xmlns:__g321="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2011-12-31"/>
+		<__g322:prumernaMzda xmlns:__g322="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">22837.0</__g322:prumernaMzda>
+		<__g323:medianMzdy xmlns:__g323="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20338.0</__g323:medianMzdy>
+		<__g324:sex xmlns:__g324="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-T"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ052/2011-12-31/M">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g325:refArea xmlns:__g325="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/86"/>
+		<__g326:refPeriod xmlns:__g326="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2011-12-31"/>
+		<__g327:prumernaMzda xmlns:__g327="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25099.0</__g327:prumernaMzda>
+		<__g328:medianMzdy xmlns:__g328="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">22102.0</__g328:medianMzdy>
+		<__g329:sex xmlns:__g329="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-M"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ052/2011-12-31/F">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g330:refArea xmlns:__g330="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/86"/>
+		<__g331:refPeriod xmlns:__g331="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2011-12-31"/>
+		<__g332:prumernaMzda xmlns:__g332="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20194.0</__g332:prumernaMzda>
+		<__g333:medianMzdy xmlns:__g333="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18666.0</__g333:medianMzdy>
+		<__g334:sex xmlns:__g334="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-F"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ052/2010-12-31/T">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g335:refArea xmlns:__g335="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/86"/>
+		<__g336:refPeriod xmlns:__g336="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2010-12-31"/>
+		<__g337:prumernaMzda xmlns:__g337="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23950.0</__g337:prumernaMzda>
+		<__g338:medianMzdy xmlns:__g338="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">21174.0</__g338:medianMzdy>
+		<__g339:sex xmlns:__g339="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-T"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ052/2010-12-31/M">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g340:refArea xmlns:__g340="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/86"/>
+		<__g341:refPeriod xmlns:__g341="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2010-12-31"/>
+		<__g342:prumernaMzda xmlns:__g342="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">26753.0</__g342:prumernaMzda>
+		<__g343:medianMzdy xmlns:__g343="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23322.0</__g343:medianMzdy>
+		<__g344:sex xmlns:__g344="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-M"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ052/2010-12-31/F">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g345:refArea xmlns:__g345="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/86"/>
+		<__g346:refPeriod xmlns:__g346="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2010-12-31"/>
+		<__g347:prumernaMzda xmlns:__g347="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20555.0</__g347:prumernaMzda>
+		<__g348:medianMzdy xmlns:__g348="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19065.0</__g348:medianMzdy>
+		<__g349:sex xmlns:__g349="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-F"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ052/2012-12-31/T">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g350:refArea xmlns:__g350="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/86"/>
+		<__g351:refPeriod xmlns:__g351="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2012-12-31"/>
+		<__g352:prumernaMzda xmlns:__g352="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23687.0</__g352:prumernaMzda>
+		<__g353:medianMzdy xmlns:__g353="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">21315.0</__g353:medianMzdy>
+		<__g354:sex xmlns:__g354="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-T"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ052/2012-12-31/M">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g355:refArea xmlns:__g355="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/86"/>
+		<__g356:refPeriod xmlns:__g356="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2012-12-31"/>
+		<__g357:prumernaMzda xmlns:__g357="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">26121.0</__g357:prumernaMzda>
+		<__g358:medianMzdy xmlns:__g358="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">22867.0</__g358:medianMzdy>
+		<__g359:sex xmlns:__g359="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-M"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ052/2012-12-31/F">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g360:refArea xmlns:__g360="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/86"/>
+		<__g361:refPeriod xmlns:__g361="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2012-12-31"/>
+		<__g362:prumernaMzda xmlns:__g362="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20844.0</__g362:prumernaMzda>
+		<__g363:medianMzdy xmlns:__g363="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19546.0</__g363:medianMzdy>
+		<__g364:sex xmlns:__g364="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-F"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ053/2011-12-31/T">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g365:refArea xmlns:__g365="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/94"/>
+		<__g366:refPeriod xmlns:__g366="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2011-12-31"/>
+		<__g367:prumernaMzda xmlns:__g367="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">22978.0</__g367:prumernaMzda>
+		<__g368:medianMzdy xmlns:__g368="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20636.0</__g368:medianMzdy>
+		<__g369:sex xmlns:__g369="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-T"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ053/2011-12-31/F">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g370:refArea xmlns:__g370="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/94"/>
+		<__g371:refPeriod xmlns:__g371="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2011-12-31"/>
+		<__g372:prumernaMzda xmlns:__g372="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20081.0</__g372:prumernaMzda>
+		<__g373:medianMzdy xmlns:__g373="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18355.0</__g373:medianMzdy>
+		<__g374:sex xmlns:__g374="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-F"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ053/2010-12-31/T">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g375:refArea xmlns:__g375="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/94"/>
+		<__g376:refPeriod xmlns:__g376="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2010-12-31"/>
+		<__g377:prumernaMzda xmlns:__g377="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23537.0</__g377:prumernaMzda>
+		<__g378:medianMzdy xmlns:__g378="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20721.0</__g378:medianMzdy>
+		<__g379:sex xmlns:__g379="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-T"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ053/2010-12-31/M">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g380:refArea xmlns:__g380="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/94"/>
+		<__g381:refPeriod xmlns:__g381="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2010-12-31"/>
+		<__g382:prumernaMzda xmlns:__g382="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">26401.0</__g382:prumernaMzda>
+		<__g383:medianMzdy xmlns:__g383="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">22404.0</__g383:medianMzdy>
+		<__g384:sex xmlns:__g384="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-M"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ053/2010-12-31/F">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g385:refArea xmlns:__g385="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/94"/>
+		<__g386:refPeriod xmlns:__g386="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2010-12-31"/>
+		<__g387:prumernaMzda xmlns:__g387="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19852.0</__g387:prumernaMzda>
+		<__g388:medianMzdy xmlns:__g388="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18242.0</__g388:medianMzdy>
+		<__g389:sex xmlns:__g389="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-F"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ053/2012-12-31/T">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g390:refArea xmlns:__g390="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/94"/>
+		<__g391:refPeriod xmlns:__g391="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2012-12-31"/>
+		<__g392:prumernaMzda xmlns:__g392="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23230.0</__g392:prumernaMzda>
+		<__g393:medianMzdy xmlns:__g393="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">21006.0</__g393:medianMzdy>
+		<__g394:sex xmlns:__g394="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-T"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ053/2012-12-31/M">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g395:refArea xmlns:__g395="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/94"/>
+		<__g396:refPeriod xmlns:__g396="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2012-12-31"/>
+		<__g397:prumernaMzda xmlns:__g397="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25367.0</__g397:prumernaMzda>
+		<__g398:medianMzdy xmlns:__g398="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">22213.0</__g398:medianMzdy>
+		<__g399:sex xmlns:__g399="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-M"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ053/2012-12-31/F">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g400:refArea xmlns:__g400="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/94"/>
+		<__g401:refPeriod xmlns:__g401="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2012-12-31"/>
+		<__g402:prumernaMzda xmlns:__g402="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20501.0</__g402:prumernaMzda>
+		<__g403:medianMzdy xmlns:__g403="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18959.0</__g403:medianMzdy>
+		<__g404:sex xmlns:__g404="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-F"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ063/2011-12-31/T">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g405:refArea xmlns:__g405="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/108"/>
+		<__g406:refPeriod xmlns:__g406="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2011-12-31"/>
+		<__g407:prumernaMzda xmlns:__g407="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">22918.0</__g407:prumernaMzda>
+		<__g408:medianMzdy xmlns:__g408="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20461.0</__g408:medianMzdy>
+		<__g409:sex xmlns:__g409="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-T"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ063/2011-12-31/M">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g410:refArea xmlns:__g410="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/108"/>
+		<__g411:refPeriod xmlns:__g411="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2011-12-31"/>
+		<__g412:prumernaMzda xmlns:__g412="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25635.0</__g412:prumernaMzda>
+		<__g413:medianMzdy xmlns:__g413="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">22329.0</__g413:medianMzdy>
+		<__g414:sex xmlns:__g414="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-M"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ063/2011-12-31/F">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g415:refArea xmlns:__g415="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/108"/>
+		<__g416:refPeriod xmlns:__g416="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2011-12-31"/>
+		<__g417:prumernaMzda xmlns:__g417="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19274.0</__g417:prumernaMzda>
+		<__g418:medianMzdy xmlns:__g418="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">17367.0</__g418:medianMzdy>
+		<__g419:sex xmlns:__g419="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-F"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ063/2010-12-31/T">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g420:refArea xmlns:__g420="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/108"/>
+		<__g421:refPeriod xmlns:__g421="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2010-12-31"/>
+		<__g422:prumernaMzda xmlns:__g422="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23944.0</__g422:prumernaMzda>
+		<__g423:medianMzdy xmlns:__g423="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">21059.0</__g423:medianMzdy>
+		<__g424:sex xmlns:__g424="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-T"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ063/2010-12-31/M">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g425:refArea xmlns:__g425="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/108"/>
+		<__g426:refPeriod xmlns:__g426="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2010-12-31"/>
+		<__g427:prumernaMzda xmlns:__g427="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">27185.0</__g427:prumernaMzda>
+		<__g428:medianMzdy xmlns:__g428="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23353.0</__g428:medianMzdy>
+		<__g429:sex xmlns:__g429="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-M"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ063/2010-12-31/F">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g430:refArea xmlns:__g430="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/108"/>
+		<__g431:refPeriod xmlns:__g431="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2010-12-31"/>
+		<__g432:prumernaMzda xmlns:__g432="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19415.0</__g432:prumernaMzda>
+		<__g433:medianMzdy xmlns:__g433="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">17485.0</__g433:medianMzdy>
+		<__g434:sex xmlns:__g434="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-F"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ063/2012-12-31/T">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g435:refArea xmlns:__g435="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/108"/>
+		<__g436:refPeriod xmlns:__g436="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2012-12-31"/>
+		<__g437:prumernaMzda xmlns:__g437="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23298.0</__g437:prumernaMzda>
+		<__g438:medianMzdy xmlns:__g438="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20956.0</__g438:medianMzdy>
+		<__g439:sex xmlns:__g439="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-T"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ063/2012-12-31/M">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g440:refArea xmlns:__g440="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/108"/>
+		<__g441:refPeriod xmlns:__g441="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2012-12-31"/>
+		<__g442:prumernaMzda xmlns:__g442="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">26291.0</__g442:prumernaMzda>
+		<__g443:medianMzdy xmlns:__g443="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">22956.0</__g443:medianMzdy>
+		<__g444:sex xmlns:__g444="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-M"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ063/2012-12-31/F">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g445:refArea xmlns:__g445="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/108"/>
+		<__g446:refPeriod xmlns:__g446="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2012-12-31"/>
+		<__g447:prumernaMzda xmlns:__g447="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19331.0</__g447:prumernaMzda>
+		<__g448:medianMzdy xmlns:__g448="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">17567.0</__g448:medianMzdy>
+		<__g449:sex xmlns:__g449="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-F"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ064/2011-12-31/T">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g450:refArea xmlns:__g450="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/116"/>
+		<__g451:refPeriod xmlns:__g451="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2011-12-31"/>
+		<__g452:prumernaMzda xmlns:__g452="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24651.0</__g452:prumernaMzda>
+		<__g453:medianMzdy xmlns:__g453="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">21238.0</__g453:medianMzdy>
+		<__g454:sex xmlns:__g454="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-T"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ064/2011-12-31/M">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g455:refArea xmlns:__g455="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/116"/>
+		<__g456:refPeriod xmlns:__g456="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2011-12-31"/>
+		<__g457:prumernaMzda xmlns:__g457="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">27370.0</__g457:prumernaMzda>
+		<__g458:medianMzdy xmlns:__g458="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23074.0</__g458:medianMzdy>
+		<__g459:sex xmlns:__g459="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-M"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ064/2011-12-31/F">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g460:refArea xmlns:__g460="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/116"/>
+		<__g461:refPeriod xmlns:__g461="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2011-12-31"/>
+		<__g462:prumernaMzda xmlns:__g462="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">21268.0</__g462:prumernaMzda>
+		<__g463:medianMzdy xmlns:__g463="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18978.0</__g463:medianMzdy>
+		<__g464:sex xmlns:__g464="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-F"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ064/2010-12-31/T">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g465:refArea xmlns:__g465="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/116"/>
+		<__g466:refPeriod xmlns:__g466="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2010-12-31"/>
+		<__g467:prumernaMzda xmlns:__g467="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">26223.0</__g467:prumernaMzda>
+		<__g468:medianMzdy xmlns:__g468="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">22139.0</__g468:medianMzdy>
+		<__g469:sex xmlns:__g469="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-T"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ064/2010-12-31/M">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g470:refArea xmlns:__g470="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/116"/>
+		<__g471:refPeriod xmlns:__g471="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2010-12-31"/>
+		<__g472:prumernaMzda xmlns:__g472="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">29672.0</__g472:prumernaMzda>
+		<__g473:medianMzdy xmlns:__g473="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24293.0</__g473:medianMzdy>
+		<__g474:sex xmlns:__g474="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-M"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ064/2010-12-31/F">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g475:refArea xmlns:__g475="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/116"/>
+		<__g476:refPeriod xmlns:__g476="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2010-12-31"/>
+		<__g477:prumernaMzda xmlns:__g477="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">21727.0</__g477:prumernaMzda>
+		<__g478:medianMzdy xmlns:__g478="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19482.0</__g478:medianMzdy>
+		<__g479:sex xmlns:__g479="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-F"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ064/2012-12-31/T">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g480:refArea xmlns:__g480="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/116"/>
+		<__g481:refPeriod xmlns:__g481="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2012-12-31"/>
+		<__g482:prumernaMzda xmlns:__g482="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25281.0</__g482:prumernaMzda>
+		<__g483:medianMzdy xmlns:__g483="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">21647.0</__g483:medianMzdy>
+		<__g484:sex xmlns:__g484="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-T"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ064/2012-12-31/M">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g485:refArea xmlns:__g485="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/116"/>
+		<__g486:refPeriod xmlns:__g486="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2012-12-31"/>
+		<__g487:prumernaMzda xmlns:__g487="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">28327.0</__g487:prumernaMzda>
+		<__g488:medianMzdy xmlns:__g488="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23493.0</__g488:medianMzdy>
+		<__g489:sex xmlns:__g489="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-M"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ064/2012-12-31/F">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g490:refArea xmlns:__g490="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/116"/>
+		<__g491:refPeriod xmlns:__g491="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2012-12-31"/>
+		<__g492:prumernaMzda xmlns:__g492="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">21643.0</__g492:prumernaMzda>
+		<__g493:medianMzdy xmlns:__g493="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19371.0</__g493:medianMzdy>
+		<__g494:sex xmlns:__g494="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-F"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ071/2011-12-31/T">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g495:refArea xmlns:__g495="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/124"/>
+		<__g496:refPeriod xmlns:__g496="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2011-12-31"/>
+		<__g497:prumernaMzda xmlns:__g497="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">22825.0</__g497:prumernaMzda>
+		<__g498:medianMzdy xmlns:__g498="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20805.0</__g498:medianMzdy>
+		<__g499:sex xmlns:__g499="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-T"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ071/2011-12-31/M">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g500:refArea xmlns:__g500="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/124"/>
+		<__g501:refPeriod xmlns:__g501="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2011-12-31"/>
+		<__g502:prumernaMzda xmlns:__g502="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24644.0</__g502:prumernaMzda>
+		<__g503:medianMzdy xmlns:__g503="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">22132.0</__g503:medianMzdy>
+		<__g504:sex xmlns:__g504="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-M"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ071/2011-12-31/F">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g505:refArea xmlns:__g505="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/124"/>
+		<__g506:refPeriod xmlns:__g506="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2011-12-31"/>
+		<__g507:prumernaMzda xmlns:__g507="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20465.0</__g507:prumernaMzda>
+		<__g508:medianMzdy xmlns:__g508="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18625.0</__g508:medianMzdy>
+		<__g509:sex xmlns:__g509="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-F"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ071/2010-12-31/T">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g510:refArea xmlns:__g510="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/124"/>
+		<__g511:refPeriod xmlns:__g511="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2010-12-31"/>
+		<__g512:prumernaMzda xmlns:__g512="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23997.0</__g512:prumernaMzda>
+		<__g513:medianMzdy xmlns:__g513="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">21423.0</__g513:medianMzdy>
+		<__g514:sex xmlns:__g514="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-T"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ071/2010-12-31/M">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g515:refArea xmlns:__g515="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/124"/>
+		<__g516:refPeriod xmlns:__g516="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2010-12-31"/>
+		<__g517:prumernaMzda xmlns:__g517="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">26431.0</__g517:prumernaMzda>
+		<__g518:medianMzdy xmlns:__g518="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">22863.0</__g518:medianMzdy>
+		<__g519:sex xmlns:__g519="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-M"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ071/2010-12-31/F">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g520:refArea xmlns:__g520="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/124"/>
+		<__g521:refPeriod xmlns:__g521="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2010-12-31"/>
+		<__g522:prumernaMzda xmlns:__g522="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20464.0</__g522:prumernaMzda>
+		<__g523:medianMzdy xmlns:__g523="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18911.0</__g523:medianMzdy>
+		<__g524:sex xmlns:__g524="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-F"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ071/2012-12-31/T">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g525:refArea xmlns:__g525="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/124"/>
+		<__g526:refPeriod xmlns:__g526="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2012-12-31"/>
+		<__g527:prumernaMzda xmlns:__g527="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23129.0</__g527:prumernaMzda>
+		<__g528:medianMzdy xmlns:__g528="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">21085.0</__g528:medianMzdy>
+		<__g529:sex xmlns:__g529="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-T"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ071/2012-12-31/M">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g530:refArea xmlns:__g530="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/124"/>
+		<__g531:refPeriod xmlns:__g531="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2012-12-31"/>
+		<__g532:prumernaMzda xmlns:__g532="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25056.0</__g532:prumernaMzda>
+		<__g533:medianMzdy xmlns:__g533="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">22389.0</__g533:medianMzdy>
+		<__g534:sex xmlns:__g534="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-M"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ071/2012-12-31/F">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g535:refArea xmlns:__g535="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/124"/>
+		<__g536:refPeriod xmlns:__g536="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2012-12-31"/>
+		<__g537:prumernaMzda xmlns:__g537="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20694.0</__g537:prumernaMzda>
+		<__g538:medianMzdy xmlns:__g538="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19232.0</__g538:medianMzdy>
+		<__g539:sex xmlns:__g539="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-F"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ072/2011-12-31/T">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g540:refArea xmlns:__g540="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/141"/>
+		<__g541:refPeriod xmlns:__g541="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2011-12-31"/>
+		<__g542:prumernaMzda xmlns:__g542="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">22655.0</__g542:prumernaMzda>
+		<__g543:medianMzdy xmlns:__g543="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20336.0</__g543:medianMzdy>
+		<__g544:sex xmlns:__g544="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-T"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ072/2011-12-31/M">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g545:refArea xmlns:__g545="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/141"/>
+		<__g546:refPeriod xmlns:__g546="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2011-12-31"/>
+		<__g547:prumernaMzda xmlns:__g547="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25144.0</__g547:prumernaMzda>
+		<__g548:medianMzdy xmlns:__g548="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">22272.0</__g548:medianMzdy>
+		<__g549:sex xmlns:__g549="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-M"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ072/2011-12-31/F">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g550:refArea xmlns:__g550="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/141"/>
+		<__g551:refPeriod xmlns:__g551="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2011-12-31"/>
+		<__g552:prumernaMzda xmlns:__g552="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19391.0</__g552:prumernaMzda>
+		<__g553:medianMzdy xmlns:__g553="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">17362.0</__g553:medianMzdy>
+		<__g554:sex xmlns:__g554="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-F"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ072/2010-12-31/T">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g555:refArea xmlns:__g555="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/141"/>
+		<__g556:refPeriod xmlns:__g556="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2010-12-31"/>
+		<__g557:prumernaMzda xmlns:__g557="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23219.0</__g557:prumernaMzda>
+		<__g558:medianMzdy xmlns:__g558="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20666.0</__g558:medianMzdy>
+		<__g559:sex xmlns:__g559="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-T"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ072/2010-12-31/M">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g560:refArea xmlns:__g560="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/141"/>
+		<__g561:refPeriod xmlns:__g561="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2010-12-31"/>
+		<__g562:prumernaMzda xmlns:__g562="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">26068.0</__g562:prumernaMzda>
+		<__g563:medianMzdy xmlns:__g563="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">22472.0</__g563:medianMzdy>
+		<__g564:sex xmlns:__g564="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-M"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ072/2010-12-31/F">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g565:refArea xmlns:__g565="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/141"/>
+		<__g566:refPeriod xmlns:__g566="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2010-12-31"/>
+		<__g567:prumernaMzda xmlns:__g567="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19393.0</__g567:prumernaMzda>
+		<__g568:medianMzdy xmlns:__g568="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">17788.0</__g568:medianMzdy>
+		<__g569:sex xmlns:__g569="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-F"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ072/2012-12-31/T">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g570:refArea xmlns:__g570="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/141"/>
+		<__g571:refPeriod xmlns:__g571="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2012-12-31"/>
+		<__g572:prumernaMzda xmlns:__g572="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">22881.0</__g572:prumernaMzda>
+		<__g573:medianMzdy xmlns:__g573="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20503.0</__g573:medianMzdy>
+		<__g574:sex xmlns:__g574="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-T"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ072/2012-12-31/M">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g575:refArea xmlns:__g575="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/141"/>
+		<__g576:refPeriod xmlns:__g576="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2012-12-31"/>
+		<__g577:prumernaMzda xmlns:__g577="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25550.0</__g577:prumernaMzda>
+		<__g578:medianMzdy xmlns:__g578="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">22494.0</__g578:medianMzdy>
+		<__g579:sex xmlns:__g579="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-M"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ072/2012-12-31/F">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g580:refArea xmlns:__g580="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/141"/>
+		<__g581:refPeriod xmlns:__g581="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2012-12-31"/>
+		<__g582:prumernaMzda xmlns:__g582="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19415.0</__g582:prumernaMzda>
+		<__g583:medianMzdy xmlns:__g583="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">17816.0</__g583:medianMzdy>
+		<__g584:sex xmlns:__g584="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-F"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ080/2011-12-31/T">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g585:refArea xmlns:__g585="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/132"/>
+		<__g586:refPeriod xmlns:__g586="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2011-12-31"/>
+		<__g587:prumernaMzda xmlns:__g587="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24174.0</__g587:prumernaMzda>
+		<__g588:medianMzdy xmlns:__g588="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">21603.0</__g588:medianMzdy>
+		<__g589:sex xmlns:__g589="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-T"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ080/2011-12-31/M">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g590:refArea xmlns:__g590="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/132"/>
+		<__g591:refPeriod xmlns:__g591="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2011-12-31"/>
+		<__g592:prumernaMzda xmlns:__g592="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">26902.0</__g592:prumernaMzda>
+		<__g593:medianMzdy xmlns:__g593="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23826.0</__g593:medianMzdy>
+		<__g594:sex xmlns:__g594="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-M"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ080/2011-12-31/F">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g595:refArea xmlns:__g595="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/132"/>
+		<__g596:refPeriod xmlns:__g596="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2011-12-31"/>
+		<__g597:prumernaMzda xmlns:__g597="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20665.0</__g597:prumernaMzda>
+		<__g598:medianMzdy xmlns:__g598="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18783.0</__g598:medianMzdy>
+		<__g599:sex xmlns:__g599="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-F"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ080/2010-12-31/T">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g600:refArea xmlns:__g600="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/132"/>
+		<__g601:refPeriod xmlns:__g601="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2010-12-31"/>
+		<__g602:prumernaMzda xmlns:__g602="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24554.0</__g602:prumernaMzda>
+		<__g603:medianMzdy xmlns:__g603="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">21883.0</__g603:medianMzdy>
+		<__g604:sex xmlns:__g604="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-T"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ080/2010-12-31/M">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g605:refArea xmlns:__g605="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/132"/>
+		<__g606:refPeriod xmlns:__g606="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2010-12-31"/>
+		<__g607:prumernaMzda xmlns:__g607="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">27407.0</__g607:prumernaMzda>
+		<__g608:medianMzdy xmlns:__g608="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24026.0</__g608:medianMzdy>
+		<__g609:sex xmlns:__g609="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-M"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ080/2010-12-31/F">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g610:refArea xmlns:__g610="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/132"/>
+		<__g611:refPeriod xmlns:__g611="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2010-12-31"/>
+		<__g612:prumernaMzda xmlns:__g612="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20721.0</__g612:prumernaMzda>
+		<__g613:medianMzdy xmlns:__g613="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19083.0</__g613:medianMzdy>
+		<__g614:sex xmlns:__g614="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-F"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ080/2012-12-31/T">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g615:refArea xmlns:__g615="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/132"/>
+		<__g616:refPeriod xmlns:__g616="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2012-12-31"/>
+		<__g617:prumernaMzda xmlns:__g617="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24479.0</__g617:prumernaMzda>
+		<__g618:medianMzdy xmlns:__g618="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">22010.0</__g618:medianMzdy>
+		<__g619:sex xmlns:__g619="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-T"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ080/2012-12-31/M">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g620:refArea xmlns:__g620="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/132"/>
+		<__g621:refPeriod xmlns:__g621="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2012-12-31"/>
+		<__g622:prumernaMzda xmlns:__g622="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">27216.0</__g622:prumernaMzda>
+		<__g623:medianMzdy xmlns:__g623="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23946.0</__g623:medianMzdy>
+		<__g624:sex xmlns:__g624="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-M"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://data.czso.cz/resource/observation/average-salaries/CZ080/2012-12-31/F">
+		<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+		<__g625:refArea xmlns:__g625="http://data.czso.cz/ontology/" rdf:resource="http://ruian.linked.opendata.cz/resource/vusc/132"/>
+		<__g626:refPeriod xmlns:__g626="http://data.czso.cz/ontology/" rdf:resource="http://reference.data.gov.uk/id/gregorian-day/2012-12-31"/>
+		<__g627:prumernaMzda xmlns:__g627="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">21054.0</__g627:prumernaMzda>
+		<__g628:medianMzdy xmlns:__g628="http://data.czso.cz/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19419.0</__g628:medianMzdy>
+		<__g629:sex xmlns:__g629="http://data.czso.cz/ontology/" rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-F"/>
+		<qb:dataSet rdf:resource="http://data.czso.cz/resource/dataset/average-salaries"/>
+	</rdf:Description>
+</rdf:RDF>

@@ -2,34 +2,18 @@ import React from 'react';
 import './displayResults.css';
 
 function DisplayDatasetData({ data }) {
-    return (
-      <div>
+  return (
+    <div className='dataset-container'>
+      <div className='dataset-info'>
+        <p><strong>File Name:</strong> {data.file_name}</p>
         <p><strong>Dataset Title:</strong> {data.dataset_title}</p>
         <p><strong>Dataset Description:</strong> {data.dataset_description}</p>
-        
-        <div>
-          <strong>Dataset Check:</strong>
-          <p><strong>Vulnerablility Check:</strong></p>
-          <ul>
-            {data.dataset_checks1.map((check, index) => <li key={index}>{check}</li>)}
-          </ul>
-          <p><strong>Discrimination Check:</strong></p>
-          <ul>
-            {data.dataset_checks2.map((check, index) => <li key={index}>{check}</li>)}
-          </ul>
-          <p><strong>Sensitivity Check:</strong></p>
-          <ul>
-            {data.dataset_checks3.map((check, index) => <li key={index}>{check}</li>)}
-          </ul>
-        </div>
-        
         <div>
           <strong>Namespaces:</strong>
           <ul>
             {data.dataset_namespaces.map((namespace, index) => <li key={index}>{namespace}</li>)}
           </ul>
         </div>
-        
         <div>
           <strong>Unavailable Namespaces:</strong>
           <ul>
@@ -37,8 +21,32 @@ function DisplayDatasetData({ data }) {
           </ul>
         </div>
       </div>
-    );
-  }
+      
+      
+      <div className='dataset-checks-container'>
+        <strong>Dataset Checks:</strong>
+        <div className='dataset-check'><strong>Vulnerability Check</strong>
+        <p>Terms found:</p>
+          <ul>
+            {data.dataset_checks1.map((check, index) => <li key={index}>{check}</li>)}
+          </ul>
+        </div>
+        <div className='dataset-check'><strong>Discrimination Check</strong>
+        <p>Terms found:</p>
+          <ul>
+            {data.dataset_checks2.map((check, index) => <li key={index}>{check}</li>)}
+          </ul>
+        </div>
+        <div className='dataset-check'><strong>Sensitivity Check</strong>
+        <p>Terms found:</p>
+          <ul>
+            {data.dataset_checks3.map((check, index) => <li key={index}>{check}</li>)}
+          </ul>
+        </div>
+      </div>
+    </div>
+  );
+}
 
 function DisplayOntologyData({ data }) {
     return (
@@ -66,10 +74,13 @@ function DisplayOntologyData({ data }) {
 
 function DisplayResults({ data }) {
     return (
-        <div className="display-results">
+        <div className="results">
         <h2>Results</h2>
+        <div className='display-results'>
+
         <DisplayDatasetData data={data} />
         <DisplayOntologyData data={data} />
+        </div>
         </div>
     );
     }
