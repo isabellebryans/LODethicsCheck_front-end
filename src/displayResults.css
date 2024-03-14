@@ -65,28 +65,50 @@
 
 .dataset-container {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column; /* Changed to stack info and checks vertically */
     gap: 20px;
 }
 
 .dataset-info {
     text-align: left;
-    flex: 1;
 }
 
 .dataset-checks-container {
-    flex: 1;
-    
-    padding: 10px;
-
+    display: flex; /* Added to layout the checks side by side */
+    justify-content: start; /* Aligns checks to the start */
+    flex-wrap: wrap; /* Allows checks to wrap if not enough space */
+    gap: 20px; /* Adds space between checks */
 }
 
-.dataset-check{
+.dataset-check {
     border: 1px solid #ccc;
     padding: 20px;
     border-radius: 8px;
-    margin: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Adjusting flex-basis to fit all checks in one line, considering padding and borders */
+    flex: 1; /* Allows the boxes to grow and fill the container */
+    min-width: 0; /* Prevents flex items from growing beyond their content size */
+    margin-bottom: 20px; /* Space below each check, if you need it */
+    max-width: calc(33.333% - 20px); /* Adjusts max width to fit three items accounting for the gap */
 }
+  
+.table {
+    width: 100%;
+    border-collapse: collapse; /* Ensures that borders between cells appear as a single line */
+    font-size: 12px;
+  }
+  
+  .table th, .table td {
+    border: 1px solid black; /* Adds a border around each cell */
+    padding: 8px; /* Adds some padding inside each cell for better readability */
+    text-align: left; /* Aligns the text to the left */
+  }
+  
+  .table th {
+    background-color: #f2f2f2; /* Adds a background color to the header cells */
+  }
 
+  .table ul {
+    font-size: 12px;
+  }
   
