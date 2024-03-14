@@ -51,22 +51,28 @@ function DisplayDatasetData({ data }) {
 function DisplayOntologyData({ data }) {
     return (
       <div>
-        <h3>Tested Ontologies</h3>
-        {data.ontologies_tested.map((ontology, index) => (
-          <div key={index} className='ontology'>
-            <h4>Ontology {index + 1}</h4>
-            <p><strong>URI:</strong> <a href={ontology.ontology_uri}>{ontology.ontology_uri}</a></p>
-            <p><strong>Title:</strong> {ontology.ontology_title}</p>
-            <p><strong>Description:</strong> {ontology.ontology_description}</p>
-            <p><strong>FOOPS Score:</strong> {ontology.foops_score}</p>
-            <p><strong>Words found:</strong></p>
-            <ul>
-              {ontology.ontology_checks1.map((check, i) => <li key={i}>{check}</li>)}
-              {ontology.ontology_checks2.map((check, i) => <li key={`check2-${i}`}>{check}</li>)}
-              {ontology.ontology_checks3.map((check, i) => <li key={`check3-${i}`}>{check}</li>)}
-            </ul>
-          </div>
-        ))}
+        <h3>Namespaces</h3>
+        <table>
+        <thead>
+          <tr>
+            <th>URI</th>
+            <th>Downloadable</th>
+            <th>FOOPS Score</th>
+            <th>Ontology</th>
+          </tr>
+        </thead>
+        <tbody>
+        {data.namespaces_tested.map((ontology, index) => (
+          <tr key={index}>
+          <td><a href={ontology.ns_uri}>{ontology.ns_uri}</a></td>
+          <td>{String(ontology.ns_downloadable)}</td>
+          <td>{ontology.ns_foops_overall_score}</td>
+          <td>{ontology.ns_ontology ? ontology.ns_ontology.ontology_title : ''}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+          
       </div>
     );
   }
