@@ -14,19 +14,19 @@ function DisplayDatasetData({ data }) {
       
       <div className='dataset-checks-container'>
         
-        <div className='dataset-check'><strong>Vulnerability Check</strong>
+        <div className='dataset-check'><strong>Vulnerability Test</strong>
         <p>Terms found:</p>
           <ul>
             {data.dataset_checks1.map((check, index) => <li key={index}>{check}</li>)}
           </ul>
         </div>
-        <div className='dataset-check'><strong>Discrimination Check</strong>
+        <div className='dataset-check'><strong>Discrimination Test</strong>
         <p>Terms found:</p>
           <ul>
             {data.dataset_checks2.map((check, index) => <li key={index}>{check}</li>)}
           </ul>
         </div>
-        <div className='dataset-check'><strong>Sensitivity Check</strong>
+        <div className='dataset-check'><strong>Sensitivity Test</strong>
         <p>Terms found:</p>
           <ul>
             {data.dataset_checks3.map((check, index) => <li key={index}>{check}</li>)}
@@ -40,12 +40,13 @@ function DisplayDatasetData({ data }) {
 function DisplayOntologyData({ data }) {
     return (
       <div>
-        <h3>Namespaces</h3>
+        <h3>Dataset Ontologies</h3>
         <table className="table">
         <thead>
           <tr>
-            <th>URI</th>
+            <th>Namespace URI</th>
             <th>Downloaded</th>
+            <th>RDF Model loaded</th>
             <th>FOOPS Score</th>
             <th>Title</th>
             <th>Description</th>
@@ -59,20 +60,48 @@ function DisplayOntologyData({ data }) {
           <tr key={index}>
           <td><a href={namespace.ns_uri}>{namespace.ns_uri}</a></td>
           <td style={{ color: namespace.ns_downloadable ? 'inherit' : 'red' }}>
-                {String(namespace.ns_downloadable)}
-              </td>
+            {String(namespace.ns_downloadable)}
+          </td>
+          <td style={{ color: namespace.ns_model_loaded === 'false' ? 'red' : 'inherit' }}>
+            {namespace.ns_model_loaded}
+          </td>
           <td>{namespace.ns_foops_overall_score}</td>
-          <td>{namespace.ns_ontology ? namespace.ns_ontology.ontology_title : 'None'}</td>
-          <td>{namespace.ns_ontology ? namespace.ns_ontology.ontology_description : 'None'}</td>
-          <td>{namespace.ns_ontology ? <ul>
-            {namespace.ns_ontology.ontology_checks1.map((check, index) => <li key={index}>{check}</li>)}
-          </ul> : ''}</td>
-          <td>{namespace.ns_ontology ? <ul>
-            {namespace.ns_ontology.ontology_checks2.map((check, index) => <li key={index}>{check}</li>)}
-          </ul> : ''}</td>
-          <td>{namespace.ns_ontology ? <ul>
-            {namespace.ns_ontology.ontology_checks3.map((check, index) => <li key={index}>{check}</li>)}
-          </ul> : ''}</td>
+          <td>{namespace.ns_ontology ? namespace.ns_ontology.ontology_title : ''}</td>
+          <td>{namespace.ns_ontology ? namespace.ns_ontology.ontology_description : ''}</td>
+          <td>
+            {namespace.ns_ontology ? ( namespace.ns_ontology.ontology_checks1.length > 0 ?(
+              <ul>
+              {namespace.ns_ontology.ontology_checks1.map((check, index) => (
+                <li key={index}>{check}</li>
+              ))}
+            </ul>
+            ) : (<span style={{ color: 'green' }}>Passed</span>)) : (
+              ''
+            )}
+          </td>
+          
+          <td>
+            {namespace.ns_ontology ? ( namespace.ns_ontology.ontology_checks2.length > 0 ?(
+              <ul>
+              {namespace.ns_ontology.ontology_checks2.map((check, index) => (
+                <li key={index}>{check}</li>
+              ))}
+            </ul>
+            ) : (<span style={{ color: 'green' }}>Passed</span>)) : (
+              ''
+            )}
+          </td>
+          <td>
+            {namespace.ns_ontology ? ( namespace.ns_ontology.ontology_checks3.length > 0 ?(
+              <ul>
+              {namespace.ns_ontology.ontology_checks3.map((check, index) => (
+                <li key={index}>{check}</li>
+              ))}
+            </ul>
+            ) : (<span style={{ color: 'green' }}>Passed</span>)) : (
+              ''
+            )}
+          </td>
         </tr>
       ))}
     </tbody>
@@ -103,7 +132,7 @@ function DisplayOntologyData({ data }) {
   
     const datasetChecksSummary = (
       <div>
-        <strong>Terms Found in Dataset Checks:</strong>
+        <strong>Dataset Issues Found:</strong>
         <ul>
           {aggregateChecks(data.dataset_checks1, data.dataset_checks2, data.dataset_checks3).map((check, index) => (
             <li key={index}>{check}</li>
