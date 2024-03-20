@@ -1,0 +1,89 @@
+@prefix ont: <http://www.example.org/ont/>.
+@prefix ex: <http://www.example.org/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix earl: <http://www.w3.org/ns/earl#>.
+@prefix void: <http://rdfs.org/ns/void#>.
+@prefix bibo: <http://purl.org/ontology/bibo/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+
+<> a ont:EthicsReport;
+    earl:subject ex:dataset123.
+
+_:d1 a void:Dataset;
+    a earl:TestSubject;
+    ont:hasNamespace _:n1;
+    dcterms:description "description";
+    dcterms:title "title";
+    ont:hasTestResult _:b1;
+    ont:hasTestResult _:b2;
+    ont:hasTestResult _:b3.
+
+_:b1 a ont:EthicsTestResult;
+    earl:test ont:SensitivityTest;
+    earl:subject ex:dataset123;
+    earl:result [
+        a earl:TestResult;
+        earl:outcome earl:passed;
+    ].
+
+_:b2 a ont:EthicsTestResult;
+    earl:test ont:DiscriminationTest;
+    earl:subject ex:dataset123;
+    earl:result [
+        a earl:TestResult;
+        earl:outcome earl:passed;
+    ].
+
+_:b2 a ont:EthicsTestResult;
+    earl:test ont:VulnerabilityTest;
+    earl:subject ex:dataset123;
+    earl:result [
+        a earl:TestResult;
+        earl:outcome earl:failed;
+        ont:termFound "crime";
+    ].
+    
+
+_:n1 bibo:uri <http://example.org>;
+    a earl:TestSubject;
+    a ont:Namespace;
+    ont:FAIRscore "0.2";
+    ont:isAvailable ont:True;
+    dcterms:title "title";
+    dcterms:description "description";
+    ont:hasTestResult _:b4;
+    ont:hasTestResult _:b5;
+    ont:hasTestResult _:b6.
+
+
+_:b4 a ont:EthicsTestResult;
+    earl:test ont:SensitivityTest;
+    earl:subject _:n1;
+    earl:result [
+        a earl:TestResult;
+        earl:outcome earl:passed;
+    ].
+
+_:b5 a ont:EthicsTestResult;
+    earl:test ont:DiscriminationTest;
+    earl:subject _:n1;
+    earl:result [
+        a earl:TestResult;
+        earl:outcome earl:passed;
+    ].
+
+_:b6 a ont:EthicsTestResult;
+    earl:test ont:VulnerabilityTest;
+    earl:subject _:n1;
+    earl:result [
+        a earl:TestResult;
+        earl:outcome earl:failed;
+        ont:termFound "crime";
+    ].
+
+_:n2 a ont:Namespace;
+    bibo:uri <http://example.org>;
+    ont:FAIRscore "0.2";
+    ont:isAvailable ont:False.

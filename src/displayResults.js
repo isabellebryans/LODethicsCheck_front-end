@@ -1,7 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './displayResults.css';
+import OverallResults from './OverallResults';
 
 function DisplayDatasetData({ data }) {
+  const [isVulnerabilityModalOpen, setIsVulnerabilityModalOpen] = useState(false);
+  const [isDiscriminationModalOpen, setIsDiscriminationModalOpen] = useState(false);
+  const [isSensitivityModalOpen, setIsSensitivityModalOpen] = useState(false);
+
+  // Toggle functions for each modal
+  const toggleVulnerabilityModal = () => setIsVulnerabilityModalOpen(!isVulnerabilityModalOpen);
+  const toggleDiscriminationModal = () => setIsDiscriminationModalOpen(!isDiscriminationModalOpen);
+  const toggleSensitivityModal = () => setIsSensitivityModalOpen(!isSensitivityModalOpen);
+
   return (
     <div className='dataset-container'>
       <div className='dataset-info'>
@@ -14,23 +24,76 @@ function DisplayDatasetData({ data }) {
       
       <div className='dataset-checks-container'>
         
-        <div className='dataset-check'><strong>Vulnerability Test</strong>
-        <p>Terms found:</p>
-          <ul>
-            {data.dataset_checks1.map((check, index) => <li key={index}>{check}</li>)}
-          </ul>
+        <div className='dataset-check'>
+          <strong>Vulnerability Test</strong>
+          <span onClick={toggleVulnerabilityModal} style={{ cursor: 'pointer', marginLeft: '10px' }}>ℹ️</span>
+          {/* Info text and modal toggle */}
+          <p>This tests for the presence of vulnerable groups in the data.</p>
+         
+          <h1>Results</h1>
+          {data.dataset_checks1.length > 0 ? (
+            <>
+              <p>Problematic Terms found:</p>
+              <p>{data.dataset_checks1.join(', ')}</p> {/* Display checks horizontally */}
+            </>
+          ) : (
+            <p>No problematic terms found.</p>
+          )}
+          {isVulnerabilityModalOpen && (
+            <div className='modal'>
+              <div className='modal-content'>
+                <span className='close' onClick={toggleVulnerabilityModal}>&times;</span>
+                <p><strong>Test Description:</strong> The Vulnerability Test examines datasets to identify the presence of information pertaining to vulnerable individuals or groups. It searches for keywords indicating the inclusion of data about children, minors, the youth, schools, homeless individuals, the elderly, retirees, migrants, refugees, asylum seekers, immigrants, individuals with criminal records, people with disabilities or impairments, and economically disadvantaged groups.</p>
+                <p><strong>Importance:</strong> This test is crucial for ensuring that data handling practices do not inadvertently expose vulnerable populations to further risks. These groups often face heightened challenges and discrimination, and their data requires careful consideration to prevent misuse, stigmatization, or harm. By identifying datasets that include or pertain to these vulnerable groups, data integrators can apply stricter ethical standards and protections, ensuring that any analysis or integration does not exacerbate their vulnerability.</p>
+              </div>
+            </div>
+          )}
         </div>
-        <div className='dataset-check'><strong>Discrimination Test</strong>
-        <p>Terms found:</p>
-          <ul>
-            {data.dataset_checks2.map((check, index) => <li key={index}>{check}</li>)}
-          </ul>
+        <div className='dataset-check'>
+          <strong>Discrimination Test</strong>
+          <span onClick={toggleDiscriminationModal} style={{ cursor: 'pointer', marginLeft: '10px' }}>ℹ️</span>
+          <p>This test detects if the data is distinguished based on potentially discriminatory factors.</p> 
+          <h1>Results</h1>
+          {data.dataset_checks2.length > 0 ? (
+            <>
+              <p>Problematic Terms found:</p>
+              <p>{data.dataset_checks2.join(', ')}</p> {/* Display checks horizontally */}
+            </>
+          ) : (
+            <p>No problematic terms found.</p>
+          )}
+          {isDiscriminationModalOpen && (
+            <div className='modal'>
+              <div className='modal-content'>
+                <span className='close' onClick={toggleDiscriminationModal}>&times;</span>
+                <p><strong>Test Description:</strong> The Discriminatory Test is designed to detect if datasets make distinctions based on potentially discriminatory factors such as sex, gender, age, ethnicity, race, religion, and nationality. It looks for keywords that could indicate that the data is categorized or could be used to differentiate individuals or groups along these sensitive lines.</p>
+                <p><strong>Importance:</strong> This test addresses the risk of discrimination that could arise from the misuse of data. By identifying datasets that distinguish individuals based on these factors, it helps data integrators to be aware of the potential for biased interpretations or applications. This awareness is essential for preventing the reinforcement of stereotypes, biases, and systemic inequalities through data integration practices. It promotes the responsible use of data that respects diversity and supports equality.</p>
+               </div>
+            </div>
+          )}
         </div>
-        <div className='dataset-check'><strong>Sensitivity Test</strong>
-        <p>Terms found:</p>
-          <ul>
-            {data.dataset_checks3.map((check, index) => <li key={index}>{check}</li>)}
-          </ul>
+        <div className='dataset-check'>
+          <strong>Sensitivity Test</strong>
+          <span onClick={toggleSensitivityModal} style={{ cursor: 'pointer', marginLeft: '10px' }}>ℹ️</span>
+          <p>This test scans the data for the inclusion of or reference to sensitive topics. </p> 
+          <h1>Results</h1>
+          {data.dataset_checks3.length > 0 ? (
+            <>
+              <p>Problematic Terms found:</p>
+              <p>{data.dataset_checks3.join(', ')}</p> {/* Display checks horizontally */}
+            </>
+          ) : (
+            <p>No problematic terms found.</p>
+          )}
+          {isSensitivityModalOpen && (
+            <div className='modal'>
+              <div className='modal-content'>
+                <span className='close' onClick={toggleSensitivityModal}>&times;</span>
+                <p><strong>Test Description:</strong> The Sensitivity Test scans datasets for the inclusion of or reference to sensitive topics. This encompasses a wide range of areas including medical, health, psychiatric conditions, addictions, treatments, diseases, disorders, financial information (income, debt, credit, poverty, wealth, salary, unemployment), criminal records (crime, conviction, arrest, incarceration), sexual orientation, political affiliations, and education.</p>
+                <p><strong>Importance:</strong> Sensitive topics require careful handling due to their potential impact on individuals' privacy, dignity, and well-being. The presence of such data can raise significant ethical considerations, from the risk of personal information exposure to the potential for misuse in ways that could affect individuals' lives profoundly. The Sensitivity Test helps ensure that datasets containing sensitive topics are identified early in the data integration process, enabling measures to be taken to safeguard privacy, ensure consent, and mitigate any potential harm.</p>
+               </div>
+            </div>
+          )}
         </div>
       </div>
     </div>
@@ -38,6 +101,10 @@ function DisplayDatasetData({ data }) {
 }
 
 function DisplayOntologyData({ data }) {
+  const [isFoopsModalOpen, setIsFoopsModalOpen] = useState(false);
+
+  const toggleFoopsModal = () => setIsFoopsModalOpen(!isFoopsModalOpen);
+
     return (
       <div>
         <h3>Dataset Ontologies</h3>
@@ -47,8 +114,9 @@ function DisplayOntologyData({ data }) {
             <th>Namespace URI</th>
             <th>Downloaded</th>
             <th>RDF Model loaded</th>
-            <th>FOOPS Score</th>
-            <th>Title</th>
+            <th style={{ position: 'relative' }}>FAIR Score 
+              <span onClick={toggleFoopsModal} style={{ cursor: 'pointer', position: 'absolute', top: 10, right: 10, fontSize: '20px' }}>ℹ️</span>
+            </th><th>Title</th>
             <th>Description</th>
             <th>Vulnerability Test Results</th>
             <th>Discrimination Test Results</th>
@@ -106,72 +174,31 @@ function DisplayOntologyData({ data }) {
       ))}
     </tbody>
   </table>
-          
+  {isFoopsModalOpen && (
+        <div className='modal'>
+          <div className='modal-content'>
+            <span className='close' onClick={toggleFoopsModal}>&times;</span>
+            <h2>FAIR Score Information:</h2>
+            <p>The FAIR score of the ontology describes its position in adhering to the FAIR principles: its Findability, Accessibility, Interoperability and Reusability. This is calculated using the <strong>FOOPS</strong> tool (Ontology Pitfall Scanner for FAIR principles). This tool assesses the "fairness" of the ontology from its URI based on the principles:
+            </p>
+            <ul>
+            <li><strong>Findability:</strong> How easily the ontology can be discovered by both humans and computers.</li>
+            <li><strong>Accessibility:</strong> The ease with which it can be accessed, including considerations for authorization and authentication where necessary.</li>
+            <li><strong>Interoperability:</strong> The ontology's ability to integrate and work seamlessly with other datasets and systems.</li>
+            <li><strong>Reusability:</strong> Its suitability for use in diverse research settings beyond its original purpose, facilitated by clear documentation and licensing.</li>
+            </ul>
+            <h3>References:</h3> 
+            <ol>
+            <li>FAIR principles - <a href={'https://www.nature.com/articles/sdata201618'}>{'https://www.nature.com/articles/sdata201618'}</a></li>
+            <li>FOOPS tool - <a href={'https://foops.linkeddata.es/about.html'}>{'https://foops.linkeddata.es/about.html'}</a></li>
+            </ol>
+          </div>
+        </div>
+      )}
       </div>
     );
   }
 
-  function OverallResults({ data }) {
-    // Summarize unavailable namespaces
-    const unavailableNamespacesSummary = (
-      <div>
-        <strong>Unavailable Namespaces:</strong>
-        <ul>
-          {data.dataset_unavailable_namespaces.map((namespace, index) => (
-            <li key={index}>{namespace}</li>
-          ))}
-        </ul>
-      </div>
-    );
-  
-    // Aggregate and deduplicate terms found in all checks
-    const aggregateChecks = (checks1, checks2, checks3) => {
-      const allTerms = [...checks1, ...checks2, ...checks3];
-      return [...new Set(allTerms)]; // Remove duplicates
-    };
-  
-    const datasetChecksSummary = (
-      <div>
-        <strong>Dataset Issues Found:</strong>
-        <ul>
-          {aggregateChecks(data.dataset_checks1, data.dataset_checks2, data.dataset_checks3).map((check, index) => (
-            <li key={index}>{check}</li>
-          ))}
-        </ul>
-      </div>
-    );
-  
-    // Assume ontology checks are stored similarly to dataset checks in your data structure
-    const ontologyChecksSummary = data.namespaces_tested
-      .filter(namespace => namespace.ns_ontology)
-      .flatMap(namespace => [
-        ...namespace.ns_ontology.ontology_checks1,
-        ...namespace.ns_ontology.ontology_checks2,
-        ...namespace.ns_ontology.ontology_checks3,
-      ]);
-  
-    const uniqueOntologyChecks = [...new Set(ontologyChecksSummary)]; // Deduplicate
-  
-    const ontologyChecksDisplay = (
-      <div>
-        <strong>Terms Found in Ontology Checks:</strong>
-        <ul>
-          {uniqueOntologyChecks.map((check, index) => (
-            <li key={index}>{check}</li>
-          ))}
-        </ul>
-      </div>
-    );
-  
-    return (
-      <div className="overall-results">
-        <h3>Overall Results Summary</h3>
-        {unavailableNamespacesSummary}
-        {datasetChecksSummary}
-        {ontologyChecksDisplay}
-      </div>
-    );
-  }
   
 
 

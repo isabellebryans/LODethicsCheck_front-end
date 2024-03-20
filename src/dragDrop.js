@@ -2,44 +2,33 @@ import React, { useCallback } from 'react';
 import { useDropzone } from 'react-dropzone';
 import axios from 'axios';
 
-const DragDropFileUpload = (props) => {
+const DragDropFileUpload = ({ onUploadResponse, onLoadingChange }) => { // Add onLoadingChange prop
     const onDrop = useCallback(acceptedFiles => {
-        // Select the first file (if multiple)
+        // Notify parent that loading has started
+        onLoadingChange(true);
+
         const file = acceptedFiles[0];
-        
-        // Create a FormData object and append the file
         let formData = new FormData();
         formData.append('file', file);
-        // Send the file to your backend via POST
-        // axios.get('http://127.0.0.1:5000/').then(response => {
-        //     // Handle success
-        //     console.log(response);
-        //     alert('File uploaded successfully');
-        // })
-        // .catch(error => {
-        //     // Handle error
-        //     console.error('Error:', error);
-        //     alert('Error uploading file');
-        // });
-        // Send the file to your backend via POST
+
         axios.post('http://localhost:8080/upload', formData, {
             headers: {
                 'Content-Type': 'multipart/form-data',
             },
         }).then(response => {
-            // Handle success
-            props.onUploadResponse(response.data);
+            onUploadResponse(response.data);
             console.log(response);
             alert('File uploaded successfully');
         })
         .catch(error => {
-            // Handle error
             console.error('Error:', error);
             alert('Error uploading file');
+        }).finally(() => {
+            // Notify parent that loading has stopped
+            onLoadingChange(false);
         });
-        // Send the file to your backend via POST
         
-    }, []);
+    }, [onUploadResponse, onLoadingChange]); // Include new prop in dependency array
 
     const {getRootProps, getInputProps, isDragActive} = useDropzone({onDrop});
 

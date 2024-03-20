@@ -1,28 +1,53 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect} from 'react';
 import './App.css';
 import DragDropFileUpload from './dragDrop';
 import exampleFileGroups from './exampleLOD';
 import DisplayResults from './displayResults';
+import provideRDFresults from './provideRDFresults';
 
 function App() {
   const [responseData, setResponseData] = useState(null);
+  const [rdfBlobUrl, setRdfBlobUrl] = useState(null);
+  const [isLoading, setIsLoading] = useState(false);
 
   // Callback function to handle the response
   const handleUploadResponse = (response) => {
     try {
       console.log(response.dataset_title);
       setResponseData(response);
+      provideRDFresults(response).then(serializedGraph => {
+        const blob = new Blob([serializedGraph], { type: 'text/turtle' });
+        const url = URL.createObjectURL(blob);
+        setRdfBlobUrl(url); // Store the blob URL for download
+        setIsLoading(false);
+      }).catch(error => {
+        console.error('Error serializing RDF:', error);
+        setIsLoading(false);
+      });
+      
     } catch (error) {
       console.error('Error parsing JSON:', error);
       // Handle parsing error
     }
   };
+  // Cleanup blob URL on component unmount
+  useEffect(() => {
+    return () => {
+      if (rdfBlobUrl) {
+        URL.revokeObjectURL(rdfBlobUrl);
+      }
+    };
+  }, [rdfBlobUrl]);
   
   return (
     <div className="App">
       <header className="App-header">
         <h1>Ethical LOD Checker</h1>
-        <DragDropFileUpload onUploadResponse={handleUploadResponse} />
+        <DragDropFileUpload 
+          onUploadResponse={handleUploadResponse} 
+          onLoadingChange={setIsLoading} // Pass the setIsLoading function as a prop
+        />
+        {isLoading && <div className="loader">Loading...</div>}
         <div style={{ marginTop: '20px' }}> {/* Adjust the margin as needed */}
           <div className='examples'>
             <h3>Example LOD</h3>
@@ -47,6 +72,11 @@ function App() {
           </div>
         </div>
         {responseData && <DisplayResults data={responseData} />}
+        {rdfBlobUrl && (
+          <a href={rdfBlobUrl} download="results.ttl" style={{ marginTop: '20px' }}>
+            Download RDF Results
+          </a>
+        )}
       </header>
     </div>
   );
