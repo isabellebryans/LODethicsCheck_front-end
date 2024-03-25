@@ -11,6 +11,17 @@ const DragDropFileUpload = ({ onUploadResponse, onLoadingChange }) => { // Add o
         let formData = new FormData();
         formData.append('file', file);
 
+        // Append additional data to formData
+        const additionalData = {
+            key1: 'value1', // Example key-value pair
+            key2: 'value2',
+            // Add more data as needed
+        };
+
+        // Append additionalData object to formData
+        // This requires converting additionalData to a JSON string
+        formData.append('json', JSON.stringify(additionalData));
+
         axios.post('http://localhost:8080/upload', formData, {
             headers: {
                 'Content-Type': 'multipart/form-data',
