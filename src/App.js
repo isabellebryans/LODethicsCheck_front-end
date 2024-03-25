@@ -4,11 +4,20 @@ import DragDropFileUpload from './dragDrop';
 import exampleFileGroups from './exampleLOD';
 import DisplayResults from './displayResults';
 import provideRDFresults from './provideRDFresults';
+import ConsentFormPopup from './consentFormPopup';
 
 function App() {
   const [responseData, setResponseData] = useState(null);
   const [rdfBlobUrl, setRdfBlobUrl] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
+  const [consentGiven, setConsentGiven] = useState(false); // State to manage consent
+
+  useEffect(() => {
+    const userConsent = localStorage.getItem('userConsent');
+    if (userConsent) {
+      setConsentGiven(true);
+    }
+  }, []);
 
   // Callback function to handle the response
   const handleUploadResponse = (response) => {
@@ -30,6 +39,12 @@ function App() {
       // Handle parsing error
     }
   };
+  // Handler when user gives consent
+  const handleConsent = () => {
+    localStorage.setItem('userConsent', 'true');
+    setConsentGiven(true);
+  };
+
   // Cleanup blob URL on component unmount
   useEffect(() => {
     return () => {
@@ -41,6 +56,7 @@ function App() {
   
   return (
     <div className="App">
+      <ConsentFormPopup isVisible={!consentGiven} onConsent={handleConsent} />
       <header className="App-header">
         <h1>LODethicsCheck</h1>
         <DragDropFileUpload 
