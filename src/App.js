@@ -42,7 +42,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Ethical LOD Checker</h1>
+        <h1>LODethicsCheck</h1>
         <DragDropFileUpload 
           onUploadResponse={handleUploadResponse} 
           onLoadingChange={setIsLoading} // Pass the setIsLoading function as a prop
@@ -72,11 +72,14 @@ function App() {
           </div>
         </div>
         {responseData && <DisplayResults data={responseData} />}
+        <h3>Download RDF results</h3>
+        <div className="download-link-container">
+        
         {rdfBlobUrl && (
           <a href={rdfBlobUrl} download="results.ttl" style={{ marginTop: '20px' }}>
-            Download RDF Results
+            results.ttl
           </a>
-        )}
+        )}</div>
       </header>
     </div>
   );

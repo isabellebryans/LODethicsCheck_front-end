@@ -87,3 +87,26 @@
   text-decoration: none;
   color: blue;
 }
+
+
+.download-link-container {
+  
+  margin-bottom: 40px;
+  border: 2px solid blue; /* Green border */
+  padding: 10px;
+  background-color: #f9f9f9;
+  text-align: center;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.download-link-container a {
+  text-decoration: none;
+  color: blue; /* Green text */
+  font-weight: bold;
+}
+
+
+.download-link-container a:hover {
+  color: black; /* White text on hover */
+}

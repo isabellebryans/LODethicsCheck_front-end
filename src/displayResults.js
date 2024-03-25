@@ -12,6 +12,12 @@ function DisplayDatasetData({ data }) {
   const toggleDiscriminationModal = () => setIsDiscriminationModalOpen(!isDiscriminationModalOpen);
   const toggleSensitivityModal = () => setIsSensitivityModalOpen(!isSensitivityModalOpen);
 
+  // Find results for each test
+  const vulnerabilityTestResults = data.dataset_ethics_tests.find(test => test.test_name === "Vulnerability Test")?.test_results || [];
+  const discriminationTestResults = data.dataset_ethics_tests.find(test => test.test_name === "Discrimination Test")?.test_results || [];
+  const sensitivityTestResults = data.dataset_ethics_tests.find(test => test.test_name === "Sensitivity Test")?.test_results || [];
+
+
   return (
     <div className='dataset-container'>
       <div className='dataset-info'>
@@ -31,10 +37,10 @@ function DisplayDatasetData({ data }) {
           <p>This tests for the presence of vulnerable groups in the data.</p>
          
           <h1>Results</h1>
-          {data.dataset_checks1.length > 0 ? (
+          {vulnerabilityTestResults.length > 0 ? (
             <>
               <p>Problematic Terms found:</p>
-              <p>{data.dataset_checks1.join(', ')}</p> {/* Display checks horizontally */}
+              <p>{vulnerabilityTestResults.join(', ')}</p> {/* Display checks horizontally */}
             </>
           ) : (
             <p>No problematic terms found.</p>
@@ -54,10 +60,10 @@ function DisplayDatasetData({ data }) {
           <span onClick={toggleDiscriminationModal} style={{ cursor: 'pointer', marginLeft: '10px' }}>ℹ️</span>
           <p>This test detects if the data is distinguished based on potentially discriminatory factors.</p> 
           <h1>Results</h1>
-          {data.dataset_checks2.length > 0 ? (
+          {discriminationTestResults.length > 0 ? (
             <>
               <p>Problematic Terms found:</p>
-              <p>{data.dataset_checks2.join(', ')}</p> {/* Display checks horizontally */}
+              <p>{discriminationTestResults.join(', ')}</p> {/* Display checks horizontally */}
             </>
           ) : (
             <p>No problematic terms found.</p>
@@ -77,10 +83,10 @@ function DisplayDatasetData({ data }) {
           <span onClick={toggleSensitivityModal} style={{ cursor: 'pointer', marginLeft: '10px' }}>ℹ️</span>
           <p>This test scans the data for the inclusion of or reference to sensitive topics. </p> 
           <h1>Results</h1>
-          {data.dataset_checks3.length > 0 ? (
+          {sensitivityTestResults.length > 0 ? (
             <>
               <p>Problematic Terms found:</p>
-              <p>{data.dataset_checks3.join(', ')}</p> {/* Display checks horizontally */}
+              <p>{sensitivityTestResults.join(', ')}</p> {/* Display checks horizontally */}
             </>
           ) : (
             <p>No problematic terms found.</p>
@@ -102,8 +108,12 @@ function DisplayDatasetData({ data }) {
 
 function DisplayOntologyData({ data }) {
   const [isFoopsModalOpen, setIsFoopsModalOpen] = useState(false);
+  const [isModelLoadedModalOpen, setIsModelLoadedModalOpen] = useState(false);
+
 
   const toggleFoopsModal = () => setIsFoopsModalOpen(!isFoopsModalOpen);
+  const toggleModelLoadedModal = () => setIsModelLoadedModalOpen(!isModelLoadedModalOpen);
+
 
     return (
       <div>
@@ -113,7 +123,9 @@ function DisplayOntologyData({ data }) {
           <tr>
             <th>Namespace URI</th>
             <th>Downloaded</th>
-            <th>RDF Model loaded</th>
+            <th style={{ position: 'relative' }}>RDF Graph Loaded 
+              <span onClick={toggleModelLoadedModal} style={{ cursor: 'pointer', position: 'absolute', top: 10, right: 10, fontSize: '20px' }}>ℹ️</span>
+            </th>
             <th style={{ position: 'relative' }}>FAIR Score 
               <span onClick={toggleFoopsModal} style={{ cursor: 'pointer', position: 'absolute', top: 10, right: 10, fontSize: '20px' }}>ℹ️</span>
             </th><th>Title</th>
@@ -137,39 +149,28 @@ function DisplayOntologyData({ data }) {
           <td>{namespace.ns_ontology ? namespace.ns_ontology.ontology_title : ''}</td>
           <td>{namespace.ns_ontology ? namespace.ns_ontology.ontology_description : ''}</td>
           <td>
-            {namespace.ns_ontology ? ( namespace.ns_ontology.ontology_checks1.length > 0 ?(
-              <ul>
-              {namespace.ns_ontology.ontology_checks1.map((check, index) => (
-                <li key={index}>{check}</li>
-              ))}
-            </ul>
-            ) : (<span style={{ color: 'green' }}>Passed</span>)) : (
-              ''
-            )}
-          </td>
+                {namespace.ns_ontology && namespace.ns_ontology.ontology_ethics_tests
+                  ? namespace.ns_ontology.ontology_ethics_tests
+                      .find(test => test.test_name === "Vulnerability Test")
+                      ?.test_results.join(', ') || 'N/A'
+                  : (<span style={{ color: 'green' }}>Passed</span>)}
+              </td>
+              <td>
+                {namespace.ns_ontology && namespace.ns_ontology.ontology_ethics_tests
+                  ? namespace.ns_ontology.ontology_ethics_tests
+                      .find(test => test.test_name === "Discrimination Test")
+                      ?.test_results.join(', ') || 'N/A'
+                  : (<span style={{ color: 'green' }}>Passed</span>)}
+              </td>
+              <td>
+                {namespace.ns_ontology && namespace.ns_ontology.ontology_ethics_tests
+                  ? namespace.ns_ontology.ontology_ethics_tests
+                      .find(test => test.test_name === "Sensitivity Test")
+                      ?.test_results.join(', ') || 'N/A'
+                  : (<span style={{ color: 'green' }}>Passed</span>)}
+              </td>
           
-          <td>
-            {namespace.ns_ontology ? ( namespace.ns_ontology.ontology_checks2.length > 0 ?(
-              <ul>
-              {namespace.ns_ontology.ontology_checks2.map((check, index) => (
-                <li key={index}>{check}</li>
-              ))}
-            </ul>
-            ) : (<span style={{ color: 'green' }}>Passed</span>)) : (
-              ''
-            )}
-          </td>
-          <td>
-            {namespace.ns_ontology ? ( namespace.ns_ontology.ontology_checks3.length > 0 ?(
-              <ul>
-              {namespace.ns_ontology.ontology_checks3.map((check, index) => (
-                <li key={index}>{check}</li>
-              ))}
-            </ul>
-            ) : (<span style={{ color: 'green' }}>Passed</span>)) : (
-              ''
-            )}
-          </td>
+        
         </tr>
       ))}
     </tbody>
@@ -192,6 +193,17 @@ function DisplayOntologyData({ data }) {
             <li>FAIR principles - <a href={'https://www.nature.com/articles/sdata201618'}>{'https://www.nature.com/articles/sdata201618'}</a></li>
             <li>FOOPS tool - <a href={'https://foops.linkeddata.es/about.html'}>{'https://foops.linkeddata.es/about.html'}</a></li>
             </ol>
+          </div>
+        </div>
+      )}
+      {isModelLoadedModalOpen && (
+        <div className='modal'>
+          <div className='modal-content'>
+            <span className='close' onClick={toggleModelLoadedModal}>&times;</span>
+            <p>This field indicates if the RDF graph of the ontology was loaded and tested in the application from the downloaded file (if downloaded successfully). 
+              If the ontology is a standard ontology, the application does not test the ontology as it is unproblematic, and "standard" is displayed in this field.
+            </p>
+            
           </div>
         </div>
       )}

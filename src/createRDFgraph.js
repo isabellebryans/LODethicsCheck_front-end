@@ -1,9 +1,9 @@
-import { graph, literal, Namespace, Fetcher, serialize, blankNode } from 'rdflib';
+import { graph, literal, Namespace, namedNode, Fetcher, serialize, blankNode } from 'rdflib';
 
 
 // Function to convert JSON to RDF triples
 function jsonToRDF(jsonResponse) {
-  const ontologyUri = 'https://purl.archive.org/net/ethics-assessment/ontology/';
+  const ontologyUri = 'https://purl.org/ethics-assessment/ontology/';
   const store = graph();
   const fetcher = new Fetcher(store);
 
@@ -15,72 +15,35 @@ function jsonToRDF(jsonResponse) {
   const BIBO = Namespace('http://purl.org/ontology/bibo/');
   const DCTERMS = Namespace('http://purl.org/dc/terms/');
 
-  const reportUri = blankNode();
+  const reportUri = namedNode('http://example.org/report');
   store.add(reportUri, RDF('type'), ONTOLOGY('EthicsReport'));
 
-  const datasetUri = blankNode();
+  const datasetUri = namedNode('http://example.org/dataset');
+  
   // Add triples for the dataset, including its title and description
   store.add(datasetUri, RDF('type'), VOID('Dataset'));
   store.add(datasetUri, RDF('type'), EARL('TestSubject'));
   store.add(datasetUri, DCTERMS('title'), literal(jsonResponse.dataset_title));
   store.add(datasetUri, DCTERMS('description'), literal(jsonResponse.dataset_description));
 
-  const testResultVulnerability = blankNode();
-  const testResultDiscrimination = blankNode();
-  const testResultSensitivity = blankNode();
+  jsonResponse.dataset_ethics_tests.forEach(test => {
+    const testResultNode = blankNode();
+    store.add(datasetUri, ONTOLOGY('hasTestResult'), testResultNode);
+    store.add(testResultNode, RDF('type'), ONTOLOGY('EthicsTestResult'));
+    store.add(testResultNode, EARL('test'), ONTOLOGY(test.test_name.replace(/\s+/g, '')));
+    const outcomeNode = blankNode();
+    store.add(testResultNode, EARL('result'), outcomeNode);
+    store.add(outcomeNode, RDF('type'), EARL('TestResult'));
+    if (test.test_results.length === 0) {
+      store.add(outcomeNode, EARL('outcome'), EARL("passed"));
+    } else {
+      test.test_results.forEach(term => {
+        store.add(outcomeNode, EARL('outcome'), EARL("failed"));
+        store.add(outcomeNode, ONTOLOGY('termFound'), literal(term));
+      });
+    }
+  });
 
-  store.add(datasetUri, ONTOLOGY('hasTestResult'), testResultVulnerability);
-  store.add(datasetUri, ONTOLOGY('hasTestResult'), testResultDiscrimination);
-  store.add(datasetUri, ONTOLOGY('hasTestResult'), testResultSensitivity);
-
-  store.add(testResultVulnerability, RDF('type'), ONTOLOGY('EthicsTestResult'));
-  store.add(testResultDiscrimination, RDF('type'), ONTOLOGY('EthicsTestResult'));
-  store.add(testResultSensitivity, RDF('type'), ONTOLOGY('EthicsTestResult'));
-
-  // store.add(testResultVulnerability, EARL('subject'), datasetUri);
-  // store.add(testResultVulnerability, EARL('subject'), datasetUri);
-  // store.add(testResultVulnerability, EARL('subject'), datasetUri);
-
-  store.add(testResultVulnerability, EARL('test'), ONTOLOGY('VulnerabilityTest'));
-  store.add(testResultDiscrimination, EARL('test'), ONTOLOGY('DiscriminationTest'));
-  store.add(testResultSensitivity, EARL('test'), ONTOLOGY('SensitivityTest'));
-
-  const testResultVulnerability1 = blankNode();
-  const testResultDiscrimination1 = blankNode();
-  const testResultSensitivity1 = blankNode();
-
-  store.add(testResultVulnerability1, RDF('type'), EARL('TestResult'));
-  store.add(testResultDiscrimination1, RDF('type'), EARL('TestResult'));
-  store.add(testResultSensitivity1, RDF('type'), EARL('TestResult'));
-
-  store.add(testResultVulnerability, EARL('result'), testResultVulnerability1);
-  store.add(testResultDiscrimination, EARL('result'), testResultDiscrimination1);
-  store.add(testResultSensitivity, EARL('result'), testResultSensitivity1);
-
-  if (jsonResponse.dataset_checks1.length === 0) {
-    store.add(testResultVulnerability1, EARL('outcome'), EARL("passed"));
-  } else{
-    jsonResponse.dataset_checks1.forEach(check => {
-      store.add(testResultVulnerability1, EARL('outcome'), EARL("failed"));
-      store.add(testResultVulnerability1, ONTOLOGY('termFound'), literal(check));
-    });
-  }
-  if (jsonResponse.dataset_checks2.length === 0) {
-    store.add(testResultDiscrimination1, EARL('outcome'), EARL("passed"));
-  } else{
-    jsonResponse.dataset_checks2.forEach(check => {
-      store.add(testResultDiscrimination1, EARL('outcome'), EARL("failed"));
-      store.add(testResultDiscrimination1, ONTOLOGY('termFound'), literal(check));
-    });
-  }
-  if (jsonResponse.dataset_checks3.length === 0) {
-    store.add(testResultSensitivity1, EARL('outcome'), EARL("passed"));
-  } else{
-    jsonResponse.dataset_checks3.forEach(check => {
-      store.add(testResultSensitivity1, EARL('outcome'), EARL("failed"));
-      store.add(testResultSensitivity1, ONTOLOGY('termFound'), literal(check));
-    });
-  }
   
   jsonResponse.namespaces_tested.forEach(JSON_ns => {
     const nsBlanknode = blankNode();
@@ -120,69 +83,26 @@ function namespaceToRDF(json_ns, store, ns_node){
   if (json_ns.ns_ontology){
     store.add(ns_node, DCTERMS('title'), literal(json_ns.ns_ontology.ontology_title));
     store.add(ns_node, DCTERMS('description'), literal(json_ns.ns_ontology.ontology_description));
-    const testResultVulnerability = blankNode();
-    const testResultDiscrimination = blankNode();
-    const testResultSensitivity = blankNode();
-
-    store.add(ns_node, ONTOLOGY('hasTestResult'), testResultVulnerability);
-    store.add(ns_node, ONTOLOGY('hasTestResult'), testResultDiscrimination);
-    store.add(ns_node, ONTOLOGY('hasTestResult'), testResultSensitivity);
-
-    store.add(testResultVulnerability, RDF('type'), ONTOLOGY('EthicsTestResult'));
-    store.add(testResultDiscrimination, RDF('type'), ONTOLOGY('EthicsTestResult'));
-    store.add(testResultSensitivity, RDF('type'), ONTOLOGY('EthicsTestResult'));
-
-    // store.add(testResultVulnerability, EARL('subject'), datasetUri);
-    // store.add(testResultVulnerability, EARL('subject'), datasetUri);
-    // store.add(testResultVulnerability, EARL('subject'), datasetUri);
-
-    store.add(testResultVulnerability, EARL('test'), ONTOLOGY('VulnerabilityTest'));
-    store.add(testResultDiscrimination, EARL('test'), ONTOLOGY('DiscriminationTest'));
-    store.add(testResultSensitivity, EARL('test'), ONTOLOGY('SensitivityTest'));
-
-    const testResultVulnerability1 = blankNode();
-    const testResultDiscrimination1 = blankNode();
-    const testResultSensitivity1 = blankNode();
-
-    store.add(testResultVulnerability1, RDF('type'), EARL('TestResult'));
-    store.add(testResultDiscrimination1, RDF('type'), EARL('TestResult'));
-    store.add(testResultSensitivity1, RDF('type'), EARL('TestResult'));
-
-    store.add(testResultVulnerability, EARL('result'), testResultVulnerability1);
-    store.add(testResultDiscrimination, EARL('result'), testResultDiscrimination1);
-    store.add(testResultSensitivity, EARL('result'), testResultSensitivity1);
-
-    if (json_ns.ns_ontology.ontology_checks1.length === 0) {
-      store.add(testResultVulnerability1, EARL('outcome'), EARL("passed"));
-    } else{
-      json_ns.ns_ontology.ontology_checks1.forEach(check => {
-        store.add(testResultVulnerability1, EARL('outcome'), EARL("failed"));
-        store.add(testResultVulnerability1, ONTOLOGY('termFound'), literal(check));
-      });
-    }
-    if (json_ns.ns_ontology.ontology_checks2.length === 0) {
-      store.add(testResultDiscrimination1, EARL('outcome'), EARL("passed"));
-    } else{
-      json_ns.ns_ontology.ontology_checks2.forEach(check => {
-        store.add(testResultDiscrimination1, EARL('outcome'), EARL("failed"));
-        store.add(testResultDiscrimination1, ONTOLOGY('termFound'), literal(check));
-      });
-    }
-    if (json_ns.ns_ontology.ontology_checks3.length === 0) {
-      store.add(testResultSensitivity1, EARL('outcome'), EARL("passed"));
-    } else{
-      json_ns.ns_ontology.ontology_checks3.forEach(check => {
-        store.add(testResultSensitivity1, EARL('outcome'), EARL("failed"));
-        store.add(testResultSensitivity1, ONTOLOGY('termFound'), literal(check));
-      });
-    }
+    json_ns.ns_ontology.ontology_ethics_tests.forEach(test => {
+      const testResultNode = blankNode();
+      store.add(ns_node, ONTOLOGY('hasTestResult'), testResultNode);
+      store.add(testResultNode, RDF('type'), ONTOLOGY('EthicsTestResult'));
+      store.add(testResultNode, EARL('test'), ONTOLOGY(test.test_name.replace(/\s+/g, '')));
+      const outcomeNode = blankNode();
+      store.add(testResultNode, EARL('result'), outcomeNode);
+      store.add(outcomeNode, RDF('type'), EARL('TestResult'));
+      if (test.test_results.length === 0) {
+        store.add(outcomeNode, EARL('outcome'), EARL("passed"));
+      } else {
+        test.test_results.forEach(term => {
+          store.add(outcomeNode, EARL('outcome'), EARL("failed"));
+          store.add(outcomeNode, ONTOLOGY('termFound'), literal(term));
+        });
+      }
+    });
   
   }
 
-
-}
-
-function allPassed(store){
 
 }
 

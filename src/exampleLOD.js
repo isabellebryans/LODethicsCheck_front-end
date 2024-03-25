@@ -1,16 +1,16 @@
 const exampleFileGroups = [
     {
       title: "Camden London Open Data",
-      description: "Description of Group 1.",
+      description: "LOD from Camden Borough in London from the data.gov.uk Open Data Portal.",
       files: [
-        { name: "camden street crime", path: "/streetCrimeCamden.rdf" },
+        { name: "camden Street Crime", path: "/streetCrimeCamden.rdf" },
         { name: "Camden Food Hygiene", path: "/camdenFoodHygiene.rdf" },
         // Add more files as needed
       ],
     },
     {
       title: "Czech Republic Open Data",
-      description: "Description of Group 2.",
+      description: "LOD from the Czech Republic government found on the LOD cloud.",
       files: [
         { name: "Unemployment Rate", path: "/czso-unemployment-rate.rdf" },
         { name: "Unemployment Rate Ontology", path: "/czso-unemployment-rate-ontology.rdf" },
