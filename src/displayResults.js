@@ -146,28 +146,28 @@ function DisplayOntologyData({ data }) {
             {namespace.ns_model_loaded}
           </td>
           <td>{namespace.ns_foops_overall_score}</td>
-          <td>{namespace.ns_ontology ? namespace.ns_ontology.ontology_title : ''}</td>
-          <td>{namespace.ns_ontology ? namespace.ns_ontology.ontology_description : ''}</td>
+          <td>{namespace.ns_ontology ? namespace.ns_ontology.ontology_title : 'N/A'}</td>
+          <td>{namespace.ns_ontology ? namespace.ns_ontology.ontology_description : 'N/A'}</td>
           <td>
                 {namespace.ns_ontology && namespace.ns_ontology.ontology_ethics_tests
                   ? namespace.ns_ontology.ontology_ethics_tests
                       .find(test => test.test_name === "Vulnerability Test")
-                      ?.test_results.join(', ') || 'N/A'
-                  : (<span style={{ color: 'green' }}>Passed</span>)}
+                      ?.test_results.join(', ') || (<span style={{ color: 'green' }}>Passed</span>)
+                  : 'N/A'}
               </td>
               <td>
                 {namespace.ns_ontology && namespace.ns_ontology.ontology_ethics_tests
                   ? namespace.ns_ontology.ontology_ethics_tests
                       .find(test => test.test_name === "Discrimination Test")
-                      ?.test_results.join(', ') || 'N/A'
-                  : (<span style={{ color: 'green' }}>Passed</span>)}
+                      ?.test_results.join(', ') || (<span style={{ color: 'green' }}>Passed</span>)
+                      : 'N/A'}
               </td>
               <td>
                 {namespace.ns_ontology && namespace.ns_ontology.ontology_ethics_tests
                   ? namespace.ns_ontology.ontology_ethics_tests
                       .find(test => test.test_name === "Sensitivity Test")
-                      ?.test_results.join(', ') || 'N/A'
-                  : (<span style={{ color: 'green' }}>Passed</span>)}
+                      ?.test_results.join(', ') || (<span style={{ color: 'green' }}>Passed</span>)
+                  : 'N/A'}
               </td>
           
         
@@ -180,7 +180,7 @@ function DisplayOntologyData({ data }) {
           <div className='modal-content'>
             <span className='close' onClick={toggleFoopsModal}>&times;</span>
             <h2>FAIR Score Information:</h2>
-            <p>The FAIR score of the ontology describes its position in adhering to the FAIR principles: its Findability, Accessibility, Interoperability and Reusability. This is calculated using the <strong>FOOPS</strong> tool (Ontology Pitfall Scanner for FAIR principles). This tool assesses the "fairness" of the ontology from its URI based on the principles:
+            <p>The FAIR score of the ontology describes its position in adhering to the FAIR principles: its Findability, Accessibility, Interoperability and Reusability. This is calculated using the <strong>FOOPS</strong> tool (Ontology Pitfall Scanner for FAIR principles), which conducts a number of tests on the ontology. This tool assesses the "fairness" of the ontology from its URI based on the principles:
             </p>
             <ul>
             <li><strong>Findability:</strong> How easily the ontology can be discovered by both humans and computers.</li>
@@ -188,6 +188,7 @@ function DisplayOntologyData({ data }) {
             <li><strong>Interoperability:</strong> The ontology's ability to integrate and work seamlessly with other datasets and systems.</li>
             <li><strong>Reusability:</strong> Its suitability for use in diverse research settings beyond its original purpose, facilitated by clear documentation and licensing.</li>
             </ul>
+            <p>The scores range between 0 and 1. The higher the score the more tests the ontology passed to determine its fairness using the FAIR principles. The higher the score the more "fair" the ontology is.</p>
             <h3>References:</h3> 
             <ol>
             <li>FAIR principles - <a href={'https://www.nature.com/articles/sdata201618'}>{'https://www.nature.com/articles/sdata201618'}</a></li>

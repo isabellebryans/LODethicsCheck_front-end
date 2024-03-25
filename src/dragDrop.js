@@ -22,7 +22,7 @@ const DragDropFileUpload = ({ onUploadResponse, onLoadingChange }) => { // Add o
         // This requires converting additionalData to a JSON string
         formData.append('json', JSON.stringify(additionalData));
 
-        axios.post('http://localhost:8080/upload', formData, {
+        axios.post('https://lod-ethics-check-8c7073e35035.herokuapp.com/upload', formData, {
             headers: {
                 'Content-Type': 'multipart/form-data',
             },
